@@ -2,9 +2,9 @@
 The Laptop Mouse Project is a DIY fix to discomfort caused by prolonged use of laptop track-pads. The LMP offers an ergonomic alternative to a typical mouse or track-pad, and secures to the sides of laptops for stability and comfort. It is mostly 3-D printable and all electronics can be found online.
 
 
-Intro:
+## Intro
 
-Parts List:
+## Parts List
 
 1x  Raspberry Pi Pico  (example: pico)
 1x  Joystick  (designed only for: adafruit_joystick)
@@ -15,7 +15,7 @@ Parts List:
 1x  USB to Micro USB Cable (3 ft, but can order different length to fit preferences)
 Solid Single-Core 22 AWG Wire
 
-Tools List:
+## Tools List
 
 1x  Soldering Iron
 1x  Wire Stripper (22 gauge)
@@ -24,7 +24,11 @@ Tools List:
 1x  Phillips Screw Driver
 Small Files/Razor/Fitment-Adjusting Tools
 
-Wire Lengths:
+## Assembly
+
+### Electronics
+
+#### Wire Lengths
 
 1x  RMB  1.25”
 1x  LMB  1.75”
@@ -32,31 +36,35 @@ Wire Lengths:
 3x  Rotary Encoder  3.00”
 5x  Joystick  5.50”
 
-Pinout Diagram:
+#### Pinout Diagram
 
-Final Soldered Mock-up:
+#### Final Soldered Mock-up
 
-Configuring Raspberry Pi Pico:
+### Code
 
-Code Files:
+#### Configuring Raspberry Pi Pico
+
+#### Code Files:
 (notes on scroll wheel)
 (make sure to reference the libraries and circuit-python)
 (comment/explain code clearly)
 
-3-D Printing Files:
+### 3-D Printing
+
+#### 3-D Printing Files
 (maybe outsource to thingiverse?)
 
-3-D Printing Notes:
+#### 3-D Printing Notes
 (settings / fuzzy skin)
 (SCREW MUST BE PRINTED SOLID)
 (Scroll-Wheel troubles with FDM, what I did to work around this)
 (fitment is not universal, some post-processing and fitment adjusting necessary)
 
-Assembly + Notes:
+### Assembly + Notes
 (steps)
 (Shaving usb micro head)
 
-Final Results:
+## Final Results
 
-Conclusion and Final Thoughts:
+## Conclusion and Final Thoughts
 

@@ -1,48 +1,57 @@
 # DIY-Laptop-Mouse-Project
-The Laptop Mouse Project is a DIY fix to discomfort caused by prolonged use of laptop track-pads. The LMP offers an ergonomic alternative to a typical mouse or track-pad, and secures to the sides of laptops for stability and comfort. It is mostly 3-D printable and all electronics can be found online.
 
+The Laptop Mouse Project is a DIY fix to discomfort caused by prolonged use of laptop track-pads. The LMP offers an ergonomic alternative to a typical mouse or track-pad, and secures to the sides of laptops for stability and comfort. It is mostly 3-D printable and all electronics can be found online.
 
 ## Intro
 
+
+
+## Required Skills
+
+ - Familiarity with 3-D printing and Slicers
+ - Cleaning up 3-D prints, removing supports, and resolving small fitment issues
+ - Soldering
+ - Familiarity with 3-D printing companies such as PCBWay or JLCPCB (only if your printer cannot print the scroll wheel strong enough)
+
 ## Parts List
 
-1x  Raspberry Pi Pico  (example: pico)
-1x  Joystick  (designed only for: adafruit_joystick)
-1x  5mm Mouse Rotary Encoder  (example: kalih_red_5mm_mouse_encoder)
-2x  4-Pin Push Buttons 6x6x5mm  (example: amazon_button_pack)
-3x  #4 ¾” Flathead Phillips Machine Screws
-4x  #4 ½” Flathead Phillips Machine Screws
-1x  USB to Micro USB Cable (3 ft, but can order different length to fit preferences)
-Solid Single-Core 22 AWG Wire
+ - 1x  Raspberry Pi Pico  (example: pico)
+ - 1x  Joystick  (designed only for: adafruit_joystick)
+ - 1x  5mm Mouse Rotary Encoder  (example: kalih_red_5mm_mouse_encoder)
+ - 2x  4-Pin Push Buttons 6x6x5mm  (example: amazon_button_pack)
+ - 3x  #4 ¾” Flathead Phillips Machine Screws
+ - 4x  #4 ½” Flathead Phillips Machine Screws
+ - 1x  USB to Micro USB Cable (3 ft, but can order different length to fit preferences)
+ - Solid Single-Core 22 AWG Wire
 
 ## Tools List
 
-1x  Soldering Iron
-1x  Wire Stripper (22 gauge)
-1x  Needle-Nose Pliers
-1x  Thread-Tap (must include ⅜” - 16 or ⅜” - 24 outside and inside tap)
-1x  Phillips Screw Driver
-Small Files/Razor/Fitment-Adjusting Tools
+ - 1x  Soldering Iron
+ - 1x  Wire Stripper (22 gauge)
+ - 1x  Needle-Nose Pliers
+ - 1x  Thread-Tap (must include ⅜” - 16 or ⅜” - 24 outside and inside tap)
+ - 1x  Phillips Screw Driver
+ - Small Files/Razor/Fitment-Adjusting Tools
 
 ## Assembly
 
 ### Electronics
 
-#### Wire Lengths
+#### Wire Lengths:
 
-1x  RMB  1.25”
-1x  LMB  1.75”
-2x  Button Ground  2.50”
-3x  Rotary Encoder  3.00”
-5x  Joystick  5.50”
+ - 1x  RMB  1.25”
+ - 1x  LMB  1.75”
+ - 2x  Button Ground  2.50”
+ - 3x  Rotary Encoder  3.00”
+ - 5x  Joystick  5.50”
 
-#### Pinout Diagram
+#### Pinout Diagram:
 
-#### Final Soldered Mock-up
+#### Final Soldered Mock-up:
 
 ### Code
 
-#### Configuring Raspberry Pi Pico
+#### Configuring Raspberry Pi Pico:
 
 #### Code Files:
 (notes on scroll wheel)
@@ -51,16 +60,16 @@ Small Files/Razor/Fitment-Adjusting Tools
 
 ### 3-D Printing
 
-#### 3-D Printing Files
+#### 3-D Printing Files:
 (maybe outsource to thingiverse?)
 
-#### 3-D Printing Notes
+#### 3-D Printing Notes:
 (settings / fuzzy skin)
 (SCREW MUST BE PRINTED SOLID)
 (Scroll-Wheel troubles with FDM, what I did to work around this)
 (fitment is not universal, some post-processing and fitment adjusting necessary)
 
-### Assembly + Notes
+#### Assembly + Notes:
 (steps)
 (Shaving usb micro head)
 

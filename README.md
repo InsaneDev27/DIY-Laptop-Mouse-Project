@@ -70,9 +70,33 @@ The Laptop Mouse Project is a DIY fix to discomfort caused by prolonged use of l
 (fitment is not universal, some post-processing and fitment adjusting necessary)
 
 #### Assembly + Notes:
-(steps)
-(Shaving usb micro head)
 
+ - Once all the parts are clean and free of supports, begin test fitting each piece together. The two halves of the main body should fit easily, but there are some areas that may require more work.
+ - The areas that normally require clearancing are as follows:
+ - 1. The top of the right click slot is slightly too tight, and needs to be taken upwards around a half a milimeter.
+(Image HERE)
+   3. The vertical clearances for the left click slot on both sides are intentionally a little tight, and probably need to be filed.
+(Image HERE)
+   4. The circular area for the left click slot is slightly too small, and also needs some vertical clearancing.
+(Image HERE)
+   
+ - The slot for the thumbstick board on the left side of the body is prone to getting clogged by supports, so be sure to adjust for that in slicer settings or attend to that in post-processing. Aside from that, once support material is removed from the slots, all the elctronics should slide in fairly easily. (There may be differences in tolerance between printers, so the previous statement could only apply to my machine)
+
+ - After all fitment issues are resolved, assembly can begin. To start, I normally begin with the electronics and place the right click button first, but feel free to install in whichever order makes the most sense.
+##### Right Mouse Button
+ - This is sometimes a tight fit, so I would reccomend using an unused 4-pin push button to double check tolerance before attempting to install the soldered right click button. From there, I normally use my automotive picks to slot the button in place, and use another pick or unwound paper clip to check if the button clicks as intended. Once in place, add super glue to where the button meets the plastic shell on the back right side of the button, making sure to avoid gluing the button open (where it refuses to depress).
+##### Raspberry Pi Pico
+ - After installing left click, I normally slot in the Pico. Make sure that there are no wires being pinched between the wall of the body and the pico, and simply slot it in. (Be sure the glue is dry if you are worried about the wires pulling the right mouse button out of place)
+##### Left Mouse Button
+ - Before installing the left mouse button, I usually bend the thumbstick under the body to get it out of the way. From there, it is a matter of bending wires and positioning the button in the slot. Again, if a secondary 4-pin push button is available, I would reccomend using it to ensure that the tolerance is correct. After this, complete the next step, then put the two sides together and make sure that everything fits well, if it does, you can use super glue to attach the button to the left side of the body.
+##### Thumb Stick
+ - Simply slide into the slots on the left side of the body. Support material often gets clogged in there, so some clearancing may be necessary.
+##### Rotary Encoder
+ - Before installing, push the axle of the scroll wheel into the back side of the encoder. This should slide in easily. If it does not, immediately remove the scroll wheel and file it down before retrying. When the scroll wheel is installed, slide the assembly in the designated slot. This too should be relatively effortless once positioned correctly (which sometimes takes some time), and if it isn't, file down then retry.
+##### Attaching the Cable
+ - After all of the electronics are installed, I typically run the cable through the clamp body, then plug it into the pico. If the head of the USB Micro end of the cable doesn't fit in the provided hole in the clamp body, then shave off some of the rubber at the head. To avoid exposing wires, give around a millimeter on all sides of the plug. From there, I normally have to use pliers to install the cable into the Pico due to the rubber head hitting the roof of the body.
+##### Tapping the Clamp Screw
+ - 
 ## Final Results
 
 ## Conclusion and Final Thoughts

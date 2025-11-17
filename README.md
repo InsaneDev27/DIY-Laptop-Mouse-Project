@@ -31,65 +31,103 @@ The Laptop Mouse Project is a DIY fix to discomfort caused by prolonged use of l
  - 1x  Needle-Nose Pliers
  - 1x  Thread-Tap (must include ⅜” - 16 or ⅜” - 24 outside and inside tap)
  - 1x  Phillips Screw Driver
- - Small Files/Razor/Fitment-Adjusting Tools
+ - Small Files
+ - Razor/Carving Tools
  - Automotive Picks (recommended for removing supports in tight places)
 
 ## Assembly
 
 ### Electronics
-
-#### Wire Lengths:
-
- - 1x  RMB  1.25”
- - 1x  LMB  1.75”
- - 2x  Button Ground  2.50”
- - 3x  Rotary Encoder  3.00”
- - 5x  Joystick  5.50”
-
-#### Pinout Diagram:
-
-#### Final Soldered Mock-up:
+   
+ #### Wire Lengths:
+ 
+  - 1x  RMB  1.25”
+  - 1x  LMB  1.75”
+  - 2x  Button Ground  2.50”
+  - 3x  Rotary Encoder  3.00”
+  - 5x  Joystick  5.50”
+ 
+ #### Pinout Diagram:
+ 
+ #### Final Soldered Mock-up:
 
 ### Code
-
-#### Configuring Raspberry Pi Pico:
-
-#### Code Files:
-(notes on scroll wheel)
-(make sure to reference the libraries and circuit-python)
-(comment/explain code clearly)
+   
+ #### Configuring Raspberry Pi Pico:
+ 
+ #### Code Files:
+ (notes on scroll wheel)
+ (make sure to reference the libraries and circuit-python)
+ (comment/explain code clearly)
 
 ### 3-D Printing
 
-#### 3-D Printing Files:
-(maybe outsource to thingiverse?)
+ #### 3-D Printing Files:
+ (maybe outsource to thingiverse?)
+ 
+ #### 3-D Printing Notes:
+ (settings / fuzzy skin)
+ (SCREW MUST BE PRINTED SOLID)
+ (Scroll-Wheel troubles with FDM, what I did to work around this)
+ (fitment is not universal; some post-processing and fitment adjusting are necessary)
+ (optional cap if don't want clamp)
+ (print less walls on thumstick for easy installation)
 
-#### 3-D Printing Notes:
-(settings / fuzzy skin)
-(SCREW MUST BE PRINTED SOLID)
-(Scroll-Wheel troubles with FDM, what I did to work around this)
-(fitment is not universal; some post-processing and fitment adjusting are necessary)
+ #### Post-Processing and Fitment:
+ - Left Body
 
-#### Assembly + Notes:
+ - Right Body
 
-Once all the parts are clean and free of supports, begin test-fitting each piece together. The two halves of the main body should fit easily, but some areas may require more work.\
+ - Left Click Trigger
+
+ - Right Click Trigger
+ 
+ - Scroll Wheel
+
+ - Clamp Body
+(include tapping and stuff)
+ - Clamp Screw
+
+ - Clamp Screw Bottoms
+ (Include assembly)
+ #### Assembly + Notes:
    
-The slot for the thumbstick board on the left side of the body is prone to getting clogged by supports, so be sure to adjust for that in slicer settings or attend to that in post-processing. Aside from that, once support material is removed from the slots, all the electronics should slide in fairly easily. (There may be differences in tolerance between printers, so the previous statement could only apply to my machine)\
+   Once all the parts are clean and free of supports, begin test-fitting each piece together. The two halves of the main body should fit easily, but some areas may require more work.\
+      
+   The slot for the thumbstick board on the left side of the body is prone to getting clogged by supports, so be sure to adjust for that in slicer settings or attend to that in post-processing. Aside from that, once support material is removed from the slots, all the electronics should slide in fairly easily. (There may be differences in tolerance between printers, so the previous statement could only apply to my machine)\
+   
+   After all fitment issues are resolved, assembly can begin. To start, I normally begin with the electronics and place the right-click button first, but feel free to install in whichever order makes the most sense.
+   ##### Right Mouse Button
+   This is sometimes a tight fit, so I would recommend using an unused 4-pin push button to double-check tolerance before attempting to install the soldered right-click button. From there, I normally use my automotive picks to slot the button in place, and use another pick or an unwound paper clip to check if the button clicks as intended. Once in place, add super glue to where the button meets the plastic shell on the back right side of the button, making sure to avoid gluing the button open (where it refuses to depress).
+   ##### Raspberry Pi Pico
+   After installing the left click, I normally slot in the Pico. Make sure that no wires are being pinched between the wall of the body and the pico, and simply slot it in. (Be sure the glue is dry if you are worried about the wires pulling the right mouse button out of place)
+   ##### Left Mouse Button
+   Before installing the left mouse button, I usually bend the thumbstick under the body to get it out of the way. From there, it is a matter of bending wires and positioning the button in the slot. Again, if a secondary 4-pin push button is available, I would recommend using it to ensure that the tolerance is correct. After this, complete the next step, then put the two sides together and make sure that everything fits well, if it does, you can use super glue to attach the button to the left side of the body.
+   ##### Thumb Stick
+   Simply slide into the slots on the left side of the body. Support material often gets clogged in there, so some clearancing may be necessary.
+   ##### Rotary Encoder
+   Before installing, push the axle of the scroll wheel into the back side of the encoder. This should slide in easily. If it does not, immediately remove the scroll wheel and file it down before retrying. When the scroll wheel is installed, slide the assembly into the designated slot. This too should be relatively effortless once positioned correctly (which sometimes takes some time), and if it isn't, file it down and then retry.
+   ##### Attaching the Cable
+   After all of the electronics are installed, I typically run the cable through the clamp body, then plug it into the pico. If the head of the USB Micro end of the cable doesn't fit in the provided hole in the clamp body, then shave off some of the rubber at the head. To avoid exposing wires, give around a millimeter on all sides of the plug. From there, I normally have to use pliers to install the cable into the Pico due to the rubber head hitting the roof of the body.
+   
+   ##### Installing the Triggers and Thumbstick Cover
+   To begin the process, I normally start with the Left Click Trigger, as it is the last piece needed to attach the two halves. To install the trigger, first, double check that the space between the end of the slide limiters and the electronic button is slightly too long. In this case, just cut off material from the tip.\
+   (Image HERE)\
+   From there, simply place the trigger in the half with all the electronics, and attach the other side.\
+   (Image HERE)\
+   Assuming all works as desired, you can use the 3/4" screws to secure the two halves together.\
+   (Image HERE)\
 
-\After all fitment issues are resolved, assembly can begin. To start, I normally begin with the electronics and place the right-click button first, but feel free to install in whichever order makes the most sense.
-##### Right Mouse Button
-This is sometimes a tight fit, so I would recommend using an unused 4-pin push button to double-check tolerance before attempting to install the soldered right-click button. From there, I normally use my automotive picks to slot the button in place, and use another pick or an unwound paper clip to check if the button clicks as intended. Once in place, add super glue to where the button meets the plastic shell on the back right side of the button, making sure to avoid gluing the button open (where it refuses to depress).
-##### Raspberry Pi Pico
-After installing the left click, I normally slot in the Pico. Make sure that no wires are being pinched between the wall of the body and the pico, and simply slot it in. (Be sure the glue is dry if you are worried about the wires pulling the right mouse button out of place)
-##### Left Mouse Button
-Before installing the left mouse button, I usually bend the thumbstick under the body to get it out of the way. From there, it is a matter of bending wires and positioning the button in the slot. Again, if a secondary 4-pin push button is available, I would recommend using it to ensure that the tolerance is correct. After this, complete the next step, then put the two sides together and make sure that everything fits well, if it does, you can use super glue to attach the button to the left side of the body.
-##### Thumb Stick
-Simply slide into the slots on the left side of the body. Support material often gets clogged in there, so some clearancing may be necessary.
-##### Rotary Encoder
-Before installing, push the axle of the scroll wheel into the back side of the encoder. This should slide in easily. If it does not, immediately remove the scroll wheel and file it down before retrying. When the scroll wheel is installed, slide the assembly into the designated slot. This too should be relatively effortless once positioned correctly (which sometimes takes some time), and if it isn't, file it down and then retry.
-##### Attaching the Cable
-After all of the electronics are installed, I typically run the cable through the clamp body, then plug it into the pico. If the head of the USB Micro end of the cable doesn't fit in the provided hole in the clamp body, then shave off some of the rubber at the head. To avoid exposing wires, give around a millimeter on all sides of the plug. From there, I normally have to use pliers to install the cable into the Pico due to the rubber head hitting the roof of the body.
-##### Tapping the Clamp Screw
+   After both sides are attached, I transition to the Right Click Trigger. The main point of struggle with this piece is the extender for the plunger. This part prints attached to a long handle for easier filing and adjustment. Using the handle, push the plunger extender into the hole on the left side of the body.\
+   (Image HERE)\
+   If any resistance is encountered, stop immediately, gently remove the extender, and file it down in the areas that were causing struggle. Repeat this process as needed. Once the extender is satisfactory, cut off the handle and place the extender in the hole with the center of the torus segment facing the front of the device.\
+   (Image HERE)\
+   Once this is complete, simply attach the Right Click Trigger as shown previously.\
+
+   Finally, it is time for the Thumbstick Cover. This part can be tricky to get right, but focus on not removing too much material from the hole in the Thumbstick Cover, else it will become wobbly during use. Align the hole of the cover with the stick of the Thumbstick, and try to press on. If this does not work, start removing material from the hole. The hole is ovular, so avoid using drills or circular options. If you printed this with less walls, the added flex of the material should assist with installation. If not, keep removing material until you are able to press the thumstick in place.\
+   (Image HERE)\
+
+   
 
 ## Final Results
 

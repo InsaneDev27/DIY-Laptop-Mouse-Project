@@ -92,9 +92,9 @@ The Laptop Mouse Project is a DIY fix to discomfort caused by prolonged use of l
  (Include assembly)
  #### Assembly + Notes:
    
-   Once all the parts are clean and free of supports, begin test-fitting each piece together. The two halves of the main body should fit easily, but some areas may require more work.\
+   Once all the parts are clean and free of supports, begin test-fitting each piece together. The two halves of the main body should fit easily, but some areas may require more work.
       
-   The slot for the thumbstick board on the left side of the body is prone to getting clogged by supports, so be sure to adjust for that in slicer settings or attend to that in post-processing. Aside from that, once support material is removed from the slots, all the electronics should slide in fairly easily. (There may be differences in tolerance between printers, so the previous statement could only apply to my machine)\
+   The slot for the thumbstick board on the left side of the body is prone to getting clogged by supports, so be sure to adjust for that in slicer settings or attend to that in post-processing. Aside from that, once support material is removed from the slots, all the electronics should slide in fairly easily. (There may be differences in tolerance between printers, so the previous statement could only apply to my machine)
    
    After all fitment issues are resolved, assembly can begin. To start, I normally begin with the electronics and place the right-click button first, but feel free to install in whichever order makes the most sense.
    ##### Right Mouse Button
@@ -116,16 +116,16 @@ The Laptop Mouse Project is a DIY fix to discomfort caused by prolonged use of l
    From there, simply place the trigger in the half with all the electronics, and attach the other side.\
    (Image HERE)\
    Assuming all works as desired, you can use the 3/4" screws to secure the two halves together.\
-   (Image HERE)\
+   (Image HERE)
 
    After both sides are attached, I transition to the Right Click Trigger. The main point of struggle with this piece is the extender for the plunger. This part prints attached to a long handle for easier filing and adjustment. Using the handle, push the plunger extender into the hole on the left side of the body.\
    (Image HERE)\
    If any resistance is encountered, stop immediately, gently remove the extender, and file it down in the areas that were causing struggle. Repeat this process as needed. Once the extender is satisfactory, cut off the handle and place the extender in the hole with the center of the torus segment facing the front of the device.\
    (Image HERE)\
-   Once this is complete, simply attach the Right Click Trigger as shown previously.\
+   Once this is complete, simply attach the Right Click Trigger as shown previously.
 
    Finally, it is time for the Thumbstick Cover. This part can be tricky to get right, but focus on not removing too much material from the hole in the Thumbstick Cover, else it will become wobbly during use. Align the hole of the cover with the stick of the Thumbstick, and try to press on. If this does not work, start removing material from the hole. The hole is ovular, so avoid using drills or circular options. If you printed this with less walls, the added flex of the material should assist with installation. If not, keep removing material until you are able to press the thumstick in place.\
-   (Image HERE)\
+   (Image HERE)
 
    
 

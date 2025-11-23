@@ -9,7 +9,7 @@ The Laptop Mouse Project is a DIY fix to discomfort caused by prolonged use of l
 ## Required Skills
 
  - Familiarity with 3-D printing and Slicers
- - Cleaning up 3-D prints, removing supports, and resolving small fitment issues
+ - Cleaning up 3-D prints, removing supports, and resolving small tolerance issues
  - Soldering
  - Familiarity with 3-D printing companies such as PCBWay or JLCPCB (only if your printer cannot print the scroll wheel strong enough)
 
@@ -69,12 +69,12 @@ The Laptop Mouse Project is a DIY fix to discomfort caused by prolonged use of l
  (settings / fuzzy skin)
  (SCREW MUST BE PRINTED SOLID)
  (Scroll-Wheel troubles with FDM, what I did to work around this)
- (fitment is not universal; some post-processing and fitment adjusting are necessary)
+ (fitment is not universal; some post-processing and tolerance adjusting are necessary)
  (optional cap if don't want clamp)
  (print less walls on thumstick for easy installation)
  (thumbstick can use any aftermarket thumbstick, as long as it is comfortable)
 
- #### Post-Processing and Fitment:
+ #### Post-Processing and Tolerancing:
  - Left Body
 Begin by removing support material as usual. Then, use a spare 4-pin pushbutton to test fit both the left and right click button slots, and remove material as needed. After post-processing the Left Click Trigger and Right Click Trigger, test fit these and remove material from the body and the parts until they slide with minimal resistance.\
 (Image HERE) (completed left body, point out areas of focus)\
@@ -128,7 +128,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
       
    The slot for the thumbstick board on the left side of the body is prone to getting clogged by supports, so be sure to adjust for that in slicer settings or attend to that in post-processing. Aside from that, once support material is removed from the slots, all the electronics should slide in fairly easily. (There may be differences in tolerance between printers, so the previous statement could only apply to my machine)
    
-   After all fitment issues are resolved, assembly can begin. To start, I normally begin with the electronics and place the right-click button first, but feel free to install in whichever order makes the most sense.
+   After all tolerance issues are resolved, assembly can begin. To start, I normally begin with the electronics and place the right-click button first, but feel free to install in whichever order makes the most sense.
    ##### Right Mouse Button
    This is sometimes a tight fit, so I would recommend using an unused 4-pin push button to double-check tolerance before attempting to install the soldered right-click button. From there, I normally use my automotive picks to slot the button in place, and use another pick or an unwound paper clip to check if the button clicks as intended. Once in place, add super glue to where the button meets the plastic shell on the back right side of the button, making sure to avoid gluing the button open (where it refuses to depress).
    ##### Raspberry Pi Pico

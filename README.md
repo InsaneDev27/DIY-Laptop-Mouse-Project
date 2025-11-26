@@ -15,10 +15,10 @@ The Laptop Mouse Project (LMP) is a DIY fix to discomfort caused by prolonged us
 
 ## Parts List
 
- - 1x  Raspberry Pi Pico  (example: pico)
- - 1x  Joystick  (designed only for: adafruit_joystick)
- - 1x  5mm Mouse Rotary Encoder  (example: kalih_red_5mm_mouse_encoder)
- - 2x  4-Pin Push Buttons 6x6x5mm  (example: amazon_button_pack)
+ - 1x  Raspberry Pi Pico  (example: [pico](https://www.pishop.us/product/raspberry-pi-pico/?src=raspberrypi))
+ - 1x  Joystick  (designed only for: [adafruit_joystick](https://www.adafruit.com/product/512))
+ - 1x  5mm Mouse Rotary Encoder  (example: [kalih_red_5mm_mouse_encoder](https://www.aliexpress.us/item/3256806292223943.html?spm=a2g0o.order_list.order_list_main.5.2ec01802nDnpCD&gatewayAdapt=glo2usa))
+ - 2x  4-Pin Push Buttons 6x6x5mm  (example: [amazon_button_pack](https://www.amazon.com/Momentary-Pushbutton-Switches-Breadboard-Electronic/dp/B09R42NFGN/ref=sr_1_1?crid=1DX43WGBWLIU5&dib=eyJ2IjoiMSJ9.DXk5BbxDHSiJJjCdTGdYFrGrHSPxeZjexUARIOWPXaGuUKrpvKHrZPfwT8M7QW-z1TUlZVRWF4wJ_uTXdLjK63bFAPTz3kdr7TUs7w-htF2f5IxVfRd6xHCcEwTcIxOgQ0LaYFem3NL6vboEB6tezYn8HnUeDWYJA6VTvSZ-diyOWkA4R6y9CyrQ1ruPFiN6XdGafszn4lFCSxWVGETcAyZZC9yobfY6JQMW6vzuPOs.Mj1qsziIMg95O4oHzvB9dXVHvoZIJiEi77VNEeLWRuQ&dib_tag=se&keywords=4%2Bpin%2Bbreadboard%2Bbutton%2B6x6x5&qid=1722558613&sprefix=4%2Bpin%2Bbreadboard%2Bbutton%2B6x6x5%2Caps%2C256&sr=8-1&th=1))
  - 3x  #4 ¾” Flathead Phillips Machine Screws
  - 4x  #4 ½” Flathead Phillips Machine Screws
  - 1x  USB to Micro USB Cable (3 ft, but can order different length to fit preferences)
@@ -141,10 +141,12 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    NOTE: When bending wires and installing the electronics, it is typical to break a solder joint or two. Use care when bending the wires and have a soldering iron on standby just in case.
    ##### Right Mouse Button
    I normally use my automotive picks to slot the button in place, and use another pick or an unwound paper clip to check if the button clicks as intended.
-   (Image HERE) slotting rmb in place with picks
-   (Image HERE) checking click
+   
+   ![Slotting right click button in place using automotive pick (button not highlighted)](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Not%20Highlighted).jpg)
+   ![Slotting right click button in place using automotive pick (button highlighted)](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Highlighted).jpg)
+   ![Checking click with a paper clip](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Checking%20Right%20Click%20Button%20With%20Paper%20Clip.jpg)
    Once in place, add super glue to where the button meets the plastic shell on the back right side of the button, making sure to avoid gluing the button open (where it refuses to depress).
-   (Image HERE) gluing rmb in place
+   ![Gluing the right click button in place](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Gluing%20in%20Right%20Click%20Button.jpg)
    ##### Raspberry Pi Pico
    After installing the left click, I normally slot in the Pico. Make sure that no wires are being pinched between the wall of the body and the pico, and simply slot it in. (Be sure the glue is dry if you are worried about the wires pulling the right mouse button out of place)
    (Image HERE) pico slotted

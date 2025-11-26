@@ -144,6 +144,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    
    ![Slotting right click button in place using automotive pick (button not highlighted)](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Not%20Highlighted).jpg)
    ![Slotting right click button in place using automotive pick (button highlighted)](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Highlighted).jpg)
+   Checking click with a paper clip:
    ![Checking click with a paper clip](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Checking%20Right%20Click%20Button%20With%20Paper%20Clip.jpg)
    Once in place, add super glue to where the button meets the plastic shell on the back right side of the button, making sure to avoid gluing the button open (where it refuses to depress).
    ![Gluing the right click button in place](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Gluing%20in%20Right%20Click%20Button.jpg)

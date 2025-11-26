@@ -218,24 +218,66 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    ![File down Clamp Port Cap so it sits flush](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Clamp%20Port%20Cap%20Filed%20and%20Installed.jpg)
    
    ##### Installing the Triggers and Thumbstick Cover
-   To begin the process, I normally start with the Left Click Trigger, as it is the last piece needed to attach the two halves. To install the trigger, first, double check that the space between the end of the slide limiters and the electronic button is slightly too long. In this case, just cut off material from the tip.\
-   (Image HERE) cutting off tip\
-   From there, simply place the trigger in the half with all the electronics, and attach the other side.\
-   (Image HERE) (trigger in the left half, both sides connected)\
-   Assuming the trigger still works as desired and slides well, you can use the 3/4" screws to secure the two halves together.\
-   (Image HERE) (screwing in a screw, all screws installed)
+   
+   To begin the process, I normally start with the Left Click Trigger, as it is the last piece needed to attach the two halves. To install the trigger, first, double check that the space between the end of the slide limiters and the electronic button is slightly too long. In this case, just cut off material from the tip.
 
-   After both sides are attached, I transition to the Right Click Trigger. The main point of struggle with this piece is the extender for the plunger. This part prints attached to a long handle for easier filing and adjustment. Using the handle, push the plunger extender into the hole on the left side of the body.\
-   (Image HERE) - using handle to push plunger into hole\
+   Why I needed to cut off the tip of the Left Click Trigger:
+   ![Why I needed to cut off the tip of the Left Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Why%20Left%20Click%20Trigger%20Tip%20Needs%20Cutting.jpg)
+
+   ![Cutting off tip of Left Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cutting%20Tip%20Off%20Left%20Click%20Trigger.jpg)
+
+   ![Severed tip of Left Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Severed%20Left%20Click%20Trigger%20Tip.jpg)
+
+   ![Corrected fit of Left Click Trigger with Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Left%20Click%20Trigger%20Properly%20Fitted.jpg)
+   
+   From there, simply place the trigger in the half with all the electronics, and attach the other side.
+   
+   ![Preparing to connect the two sides](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Left%20Click%20Trigger.jpg)
+
+   ![Two halves connected](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Left%20Click%20Trigger%20Installed%20Fit%20Check.jpg)
+   
+   Assuming the trigger still works as desired and slides well, you can use the 3/4" screws to secure the two halves together.
+   
+   ![Installing first screw](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Screwing%20in%20%234%20-%203_4_%20Machine%20Screw.jpg)
+
+   ![All screws installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/All%20Screws%20Attached.jpg)
+
+   
+
+   After both sides are attached, I transition to the Right Click Trigger. The main point of struggle with this piece is the extender for the plunger. This part prints attached to a long handle for easier filing and adjustment. Using the handle, push the Plunger Extender into the hole on the left side of the body.
+   
+   ![Original Plunger Extender fit check using handle](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Initial%20Fit%20Check%20of%20Plunger%20Extender.jpg)
+   
    If any resistance is encountered, stop immediately, gently remove the extender, and file it down in the areas that were causing struggle.
-   (Image HERE) - filing down the extender\
-   Repeat this process as needed. Once the extender is satisfactory, cut off the handle and place the extender in the hole with the center of the torus segment facing the front of the device.\
-   (Image HERE) (cut off extender, placing in the hole with torus diagram, in the hole)\
-   Once this is complete, simply attach the Right Click Trigger as shown previously.\
-   (Image HERE) -right click attached
+   
+   ![Filing down Plunger Extender](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Filing%20Plunger%20Extender.jpg)
 
-   Finally, it is time for the Thumbstick Cover. This part can be tricky to get right, but focus on not removing too much material from the hole in the Thumbstick Cover, else it will become wobbly during use. Align the hole of the cover with the stick of the Thumbstick, and try to press on. This takes some force, but if it will not slide on, start removing material from the hole. The hole is ovular, so avoid using drills or circular options. If you printed this with less walls, the added flex of the material should assist with installation. If not, keep removing material until you are able to press the thumstick in place. Once installed, if you desire, you can add super glue to secure the cover.\
-   (Image HERE) - thumbstick cover attached
+   ![Re-checking Plunger Extender fit after filing](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Re-Checking%20Plunger%20Extender%20Fit%20Using%20Handle.jpg)
+   
+   Repeat this process as needed. Once the extender is satisfactory, cut off the handle and place the extender in the hole with the center of the torus segment facing the front of the device.
+
+   ![Severing the handle from the Plunger Extender](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cutting%20Handle%20off%20Plunger%20Extender.jpg)
+
+   ![Installing the Plunger Extender in the hole with the torus diagram](
+
+   ![Plunger Extender fully installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Plunger%20Extender%20Installed.jpg)
+   
+   Once this is complete, simply attach the Right Click Trigger as shown previously.
+   
+   ![Installing Right Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Trigger.jpg)
+
+   ![Right Click Trigger installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Right%20Click%20Trigger%20Installed.jpg)
+
+
+
+   Finally, it is time for the Thumbstick Cover. This part can be tricky to get right, but focus on not removing too much material from the hole in the Thumbstick Cover, else it will become wobbly during use. Align the hole of the cover with the stick of the Thumbstick, and try to press on. This takes some force, but if it will not slide on, start removing material from the hole. The hole is ovular, so avoid using drills or circular options.
+
+
+   ![Adjusting Thumbstick Cover](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Adjusting%20Thumbstick%20Hole.jpg)
+   
+   If you printed this with less walls, the added flex of the material should assist with installation. If not, keep removing material until you are able to press the thumstick in place. Once installed, if you desire, you can add super glue to secure the cover.
+   
+   ![Thumbstick Cover fully installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Thumbstick%20Cap%20Installed.jpg)
 
    
 

@@ -143,32 +143,80 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    I normally use my automotive picks to slot the button in place, and use another pick or an unwound paper clip to check if the button clicks as intended.
    
    ![Slotting right click button in place using automotive pick (button not highlighted)](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Not%20Highlighted).jpg)
+   
    ![Slotting right click button in place using automotive pick (button highlighted)](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Highlighted).jpg)
+   
    Checking click with a paper clip:
    ![Checking click with a paper clip](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Checking%20Right%20Click%20Button%20With%20Paper%20Clip.jpg)
+   
    Once in place, add super glue to where the button meets the plastic shell on the back right side of the button, making sure to avoid gluing the button open (where it refuses to depress).
+   
    ![Gluing the right click button in place](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Gluing%20in%20Right%20Click%20Button.jpg)
+   
    ##### Raspberry Pi Pico
+   
    After installing the left click, I normally slot in the Pico. Make sure that no wires are being pinched between the wall of the body and the pico, and simply slot it in. (Be sure the glue is dry if you are worried about the wires pulling the right mouse button out of place)
-   (Image HERE) pico slotted
+   
+   ![Pico slotted in place](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pico%20Slotted.jpg)
    ##### Left Mouse Button
    Before installing the left mouse button, I usually bend the thumbstick under the body to get it out of the way. 
-   (Image HERE) thumbstick under body
+   
+   ![Thumbstick bent under the body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Bending%20Thumbstick%20Under%20Body.jpg)
+   
    From there, it is a matter of bending wires and positioning the button in the slot. After this, install the thumbstick as described below, then put the two sides together and make sure the button and thumbstick align properly on both sides. If everything fits properly, you can use super glue to attach the button to the left side of the body if desired (be careful not to glue the two halves of the body together).
+   
    ##### Thumb Stick
+   
    Simply slide into the slots on the left side of the body. Support material often gets clogged in there, so some clearancing may be necessary.
-   (Image HERE) (sliding thumbstick in)
+   
+   ![Attaching the Thumbstick to the Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Thumbstick%20Base%20Installed%20in%20Left%20Body.jpg)
+
+   After this, try attaching the Right Body to check the fit of the left click button and the Thumbstick. The wires going to the Thumbstick board may need to be bent out of the way. When bending these wires, be sure to separate the power wire from the others. When this wire gets squeezed against the x and y axis wires it can sometimes cause interference that causes the cursor to behave erratically and uncontrollably.
+
+   ![Arranging wires before fitting together](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Arranging%20Wires%20After%20Electronics%20Installed.jpg)
+   
+   ![Attaching the two sides](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Two%20Sides%20Fit%20Check%20With%20LMB%20and%20Thumbstick.jpg)
+   
    ##### Rotary Encoder
-   Before installing, push the axle of the scroll wheel into the back side of the encoder. This should slide in easily. If it does not, immediately remove the scroll wheel and file it down before retrying.
-   (Image HERE) scroll wheel in rotary encoder
-   When the scroll wheel is installed, slide the assembly into the designated slot. This too should be relatively effortless once positioned correctly (which sometimes takes some time), and if it isn't, file the slot down and then retry.
-   (Image HERE) assembly installed
+   
+   Before installing, push the axle of the Scroll Wheel into the back side of the encoder. This should slide in easily. If it does not, immediately remove the scroll wheel and file it down before retrying.
+   
+   ![Scroll Wheel attached to the rotary encoder](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Scroll%20Wheel%20Attached%20to%20Rotary%20Encoder.jpg)
+   
+   When the Scroll Wheel is installed, slide the assembly into the designated slot. This too should be relatively effortless once positioned correctly (which sometimes takes some time), and if it isn't, file the slot down and then retry.
+   
+   ![Scroll Wheel assembly being installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Scroll%20Wheel%20Assembly.jpg)
+
+   ![Scroll Wheel assembly fully installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Scroll%20Wheel%20Assembly%20Installed.jpg)
+   
    ##### Attaching the Cable
+   
    After all of the electronics are installed, I typically run the cable through the clamp body, then plug it into the pico. If the head of the USB Micro end of the cable doesn't fit in the provided hole in the clamp body, then shave off some of the rubber at the head. To avoid exposing wires, give around a millimeter on all sides of the plug.
-   (Image HERE) shaved head
-   (Image HERE) shaved head through clamp body
+
+   The cable head doesn't fit through the Clamp Body:
+   ![Cable head does not fit](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cable%20Head%20Does%20Not%20Fit.jpg)
+
+   ![Shaving the cable head](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Shaving%20Head.jpg)
+   
+   ![Shaved head](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Shaved%20Head.jpg)
+   
+   ![Shaved head through Clamp Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Shaved%20Head%20Through%20Clamp%20Body.jpg)
+   
    From there, I normally have to use pliers to install the cable into the Pico due to the rubber head hitting the roof of the body.
-   (Image HERE) attaching cable to pico
+   
+   ![Attaching the cable head to the Pico with pliers](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Attaching%20Cable%20to%20Pico%20with%20Pliers.jpg)
+
+   Finally, I route the wires and attach the Clamp Body to the Left Body, securing it with the Clamp Port Cap.
+
+   ![Routing the cable](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cable%20Routing.jpg)
+
+   ![Attaching Clamp Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cable%20Routed%20and%20Clamp%20Body%20Attached.jpg)
+
+   ![Secure with Clamp Port Cap](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Clamp%20Port%20Cap%20Installed%20Not%20Filed.jpg)
+
+   File down the Clamp Port Cap so that it will sit flush:
+   ![File down Clamp Port Cap so it sits flush](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Clamp%20Port%20Cap%20Filed%20and%20Installed.jpg)
+   
    ##### Installing the Triggers and Thumbstick Cover
    To begin the process, I normally start with the Left Click Trigger, as it is the last piece needed to attach the two halves. To install the trigger, first, double check that the space between the end of the slide limiters and the electronic button is slightly too long. In this case, just cut off material from the tip.\
    (Image HERE) cutting off tip\

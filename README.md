@@ -66,7 +66,7 @@ NOTE: On the rotary encoder, there should be 2 legs on the sides that attach to 
 
 NOTE: The ground wires from the left mouse button (LMB) and right mouse button (RMB) are connected in my diagrams. I have done this by simply soldering the LMB ground to the pico, then the RMB ground to the LMB ground. I connected the two wires in this way to consolodate the wire spead and, in a previous design, other ground ports were blocked. However, if you would like to avoid having to connect the two wires, there is another ground pin on the pico 13 pins down on the left where you can route a longer ground wire to from one of the buttons.
 
-![Secondary ground location](
+![Secondary ground location](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Alternative%20Ground%20Position%20on%20Pico.png)
  
  #### Final Soldered Assembly:
 

@@ -55,10 +55,19 @@ Cost Breakdown (including shipping to the US):
   - 2x  Button Ground  2.50”
   - 3x  Rotary Encoder  3.00”
   - 5x  Joystick  5.50”
+
+NOTE: On the rotary encoder, there should be 2 legs on the sides that attach to the frame, but are not electrical. For these, simply cut them off, as they will interfere with assembly later, and serve only to confuse in the soldering stage.
+
+![Rotary encoder pins to cut off](
  
  #### Pinout Diagram:
+
  
- #### Final Soldered Mock-up:
+ #### Final Soldered Assembly:
+
+ ![Final Soldered Assembly 1](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Final%20Soldered%20Assembly%201.jpg)
+
+ ![Final Soldered Assembly 2](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Final%20Soldered%20Assembly%202.jpg)
 
 ### Code
    
@@ -258,7 +267,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
 
    ![Severing the handle from the Plunger Extender](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cutting%20Handle%20off%20Plunger%20Extender.jpg)
 
-   ![Installing the Plunger Extender in the hole with the torus diagram](
+   ![Installing the Plunger Extender in the hole with the torus diagram](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Plunger%20Extender%20with%20Torus%20Diagram.jpg)
 
    ![Plunger Extender fully installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Plunger%20Extender%20Installed.jpg)
    

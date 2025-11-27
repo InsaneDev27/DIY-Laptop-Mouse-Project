@@ -62,6 +62,7 @@ NOTE: On the rotary encoder, there should be 2 legs on the sides that attach to 
  
  #### Pinout Diagram:
 
+![Project Pinout](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pi%20Pico%20Pinout%20for%20LMP.jpg)
  
  #### Final Soldered Assembly:
 

@@ -55,14 +55,18 @@ Cost Breakdown (including shipping to the US):
   - 2x  Button Ground  2.50”
   - 3x  Rotary Encoder  3.00”
   - 5x  Joystick  5.50”
-
-NOTE: On the rotary encoder, there should be 2 legs on the sides that attach to the frame, but are not electrical. For these, simply cut them off, as they will interfere with assembly later, and will only cause confusion in the soldering stage.
-
-![Rotary encoder pins to cut off](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Rotary%20Encoder%20diagram%20to%20cut%20off%20extra%20legs.jpg)
  
  #### Pinout Diagram:
 
 ![Project Pinout](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pi%20Pico%20Pinout%20for%20LMP.jpg)
+
+NOTE: On the rotary encoder, there should be 2 legs on the sides that attach to the frame, but are not electrical. For these, simply cut them off, as they will interfere with assembly later, and will only cause confusion in the soldering stage.
+
+![Rotary encoder pins to cut off](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Rotary%20Encoder%20diagram%20to%20cut%20off%20extra%20legs.jpg)
+
+NOTE: The ground wires from the left mouse button (LMB) and right mouse button (RMB) are connected in my diagrams. I have done this by simply soldering the LMB ground to the pico, then the RMB ground to the LMB ground. I connected the two wires in this way to consolodate the wire spead and, in a previous design, other ground ports were blocked. However, if you would like to avoid having to connect the two wires, there is another ground pin on the pico 13 pins down on the left where you can route a longer ground wire to from one of the buttons.
+
+![Secondary ground location](
  
  #### Final Soldered Assembly:
 

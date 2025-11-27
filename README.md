@@ -56,9 +56,9 @@ Cost Breakdown (including shipping to the US):
   - 3x  Rotary Encoder  3.00”
   - 5x  Joystick  5.50”
 
-NOTE: On the rotary encoder, there should be 2 legs on the sides that attach to the frame, but are not electrical. For these, simply cut them off, as they will interfere with assembly later, and serve only to confuse in the soldering stage.
+NOTE: On the rotary encoder, there should be 2 legs on the sides that attach to the frame, but are not electrical. For these, simply cut them off, as they will interfere with assembly later, and will only cause confusion in the soldering stage.
 
-![Rotary encoder pins to cut off](
+![Rotary encoder pins to cut off](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Rotary%20Encoder%20diagram%20to%20cut%20off%20extra%20legs.jpg)
  
  #### Pinout Diagram:
 

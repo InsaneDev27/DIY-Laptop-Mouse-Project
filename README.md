@@ -104,8 +104,17 @@ Begin by removing support material as usual. Then, use a spare 4-pin pushbutton 
 NOTE: Avoid filing and removing material from anywhere visible on the completed assembly, as this will likely result in discoloration that is difficult to fix.
 
  - Right Body
-Repeat the process explained in the left body. Pay attention to the cylindrical region of the front (left click) trigger slot, as this is often a source of resistance.\
-(Image HERE) (point out trigger areas)
+Repeat the process explained in the left body. Pay attention to the cylindrical region of the front (left click) trigger slot, as this is often a source of resistance. If needed, this can be filed square.
+
+(Image HERE) filing trigger square\
+
+Additionally, the wings of the trigger (the extrusions that stop the trigger from falling out) can be too long. Be sure thst these allow the trigger to slide properly, and do not cause interference.
+
+(Image HERE) adjusting wings
+
+Finally, make sure to remove any residual support material from the thumbstick base slot as before.
+
+(Image HERE) (completed right body)
 
  - Left Click Trigger
 Remove all support, file the cylindrical extrusion to remove any surface imperfections that result in drag, test fit with each side of the body, then assemble both sides and the trigger\

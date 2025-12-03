@@ -219,7 +219,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
 (Image HERE) -completed assembly
 
 
- #### Assembly + Notes:
+ ### Assembly + Notes:
    
    Once all the parts are clean and free of supports, begin test-fitting each piece together. The two halves of the main body should fit easily, but some areas may require more work.
       
@@ -227,7 +227,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    
    After all tolerance issues are resolved, assembly can begin. To start, I normally begin with the electronics and place the right-click button first, but feel free to install in whichever order makes the most sense.\
    NOTE: When bending wires and installing the electronics, it is typical to break a solder joint or two. Use care when bending the wires and have a soldering iron on standby just in case.
-   ##### Right Mouse Button
+   #### Right Mouse Button
    I normally use my automotive picks to slot the button in place, and use another pick or an unwound paper clip to check if the button clicks as intended.
    
    ![Slotting right click button in place using automotive pick (button not highlighted)](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Not%20Highlighted).jpg)
@@ -241,7 +241,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    
    ![Gluing the right click button in place](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Gluing%20in%20Right%20Click%20Button.jpg)
    
-   ##### Raspberry Pi Pico
+   #### Raspberry Pi Pico
    
    After installing the left click, I normally slot in the Pico. Make sure that no wires are being pinched between the wall of the body and the pico, and simply slot it in. (Be sure the glue is dry if you are worried about the wires pulling the right mouse button out of place)
    
@@ -253,7 +253,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    
    From there, it is a matter of bending wires and positioning the button in the slot. After this, install the thumbstick as described below, then put the two sides together and make sure the button and thumbstick align properly on both sides. If everything fits properly, you can use super glue to attach the button to the left side of the body if desired (be careful not to glue the two halves of the body together).
    
-   ##### Thumb Stick
+   #### Thumb Stick
    
    Simply slide into the slots on the left side of the body. Support material often gets clogged in there, so some clearancing may be necessary.
    
@@ -265,7 +265,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    
    ![Attaching the two sides](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Two%20Sides%20Fit%20Check%20With%20LMB%20and%20Thumbstick.jpg)
    
-   ##### Rotary Encoder
+   #### Rotary Encoder
    
    Before installing, push the axle of the Scroll Wheel into the back side of the encoder. This should slide in easily. If it does not, immediately remove the scroll wheel and file it down before retrying.
    
@@ -277,7 +277,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
 
    ![Scroll Wheel assembly fully installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Scroll%20Wheel%20Assembly%20Installed.jpg)
    
-   ##### Attaching the Cable
+   #### Attaching the Cable
    
    After all of the electronics are installed, I typically run the cable through the clamp body, then plug it into the pico. If the head of the USB Micro end of the cable doesn't fit in the provided hole in the clamp body, then shave off some of the rubber at the head. To avoid exposing wires, give around a millimeter on all sides of the plug.
 
@@ -305,7 +305,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    File down the Clamp Port Cap so that it will sit flush:
    ![File down Clamp Port Cap so it sits flush](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Clamp%20Port%20Cap%20Filed%20and%20Installed.jpg)
    
-   ##### Installing the Triggers and Thumbstick Cover
+   #### Installing the Triggers and Thumbstick Cover
    
    To begin the process, I normally start with the Left Click Trigger, as it is the last piece needed to attach the two halves. To install the trigger, first, double check that the space between the end of the slide limiters and the electronic button is slightly too long. In this case, just cut off material from the tip.
 

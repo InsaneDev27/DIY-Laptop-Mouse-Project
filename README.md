@@ -117,6 +117,7 @@ Repeat the process explained for the Left Body. Pay attention to the cylindrical
 
 ![Filing Left Click Trigger slot square](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pointing%20Out%20Cylindrical%20Slot%20for%20Left%20Click%20Trigger%20on%20Right%20Body.jpg)
 
+Completed Right Body:
 ![Completed Right Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Completed%20Right%20Body.jpg)
 
 ![Test fitting with Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20both%20Bodies.jpg)
@@ -128,6 +129,7 @@ Remove all support, file the cylindrical extrusion to remove any surface imperfe
 
 Finally, assemble both sides, sanwiching the trigger, and make sure there is no new interference.
 
+Completed Left Click Trigger:
 ![Left Trigger done](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Left%20Click%20Trigger.jpg)
 
  - Right Click Trigger
@@ -141,6 +143,7 @@ Finally, assemble both sides, sanwiching the trigger, and make sure there is no 
 
 After the basic support removal, file down the inside top edge of the part until all suport residue is gone, file down the plunger, then test fit with the Left Body, and remove material from both parts as needed.
 
+Completed Right Click Trigger:
 ![Finished Right Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Right%20Click%20Trigger.jpg)
 
 ![Test fitting with the Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Right%20Click%20Trigger%20with%20Left%20Click.jpg)

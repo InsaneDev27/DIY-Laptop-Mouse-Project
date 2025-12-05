@@ -101,7 +101,7 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
  - Left Body
 Begin by removing support material as usual. Then, use a spare 4-pin pushbutton to test fit both the left and right click button slots, and remove material as needed. Pay attention to the thumbstick base slot, as this often gets clogged with support material. Finally, test fit with thumbstick if possible.
 
-![Test fitting left and right click 4-pin push buttons with Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%204-Pin%20Buttons%20with%20Left%20Body.jpg)
+<img alt="Test fitting left and right click 4-pin push buttons with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%204-Pin%20Buttons%20with%20Left%20Body.jpg" width="400">
 
 ![Cleaning out thumbstick base slot on Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Removing%20Supports%20from%20Thumbstick%20Slot%20on%20Left%20Body.jpg)
 

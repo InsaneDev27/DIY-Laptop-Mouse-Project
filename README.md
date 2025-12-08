@@ -165,6 +165,8 @@ Then test fit the part with the rotary encoder. If much resistance is encountere
 
 (Image HERE) Test fitting with rotary encoder
 
+(Image HERE) test fitting scroll wheel assembly with Left Body
+
 (Image HERE) finished Scroll Wheel
 
  - Clamp Body
@@ -180,7 +182,8 @@ Then, use a lighter or heat gun to recolor this segment. Avoid severely melting 
 
 (Image HERE) (using lighter)
 
-(Image HERE) sucessfully recolored
+(Image HERE) successfully recolored 1
+(Image HERE) successfully recolored 2
 
 (Image HERE) warped clamp body
 
@@ -195,15 +198,24 @@ After this, use a 3/8" - 16 or 3/8" - 24 inside tapping tool to thread the hole 
 
 (Image HERE) (tapping with pliers close to tap)
 
+Reason for switched grip tapping:
+(Image HERE) reason for switched grip
+
 (Image HERE) switched grip tapping
 
 (Image HERE) final position of the tapping device
 
 (Image HERE) finished tap
 
+(Image HERE) clearing material from peg hole on Clamp Screw
+
 Finally, use a lighter or a heat gun to recolor the screw. Use caution and quick sweeps, as this part warps very easily.
 
 (Image HERE) (using lighter, finished part, warped part)
+
+You can now screw the Clamp Screw into the Clamp Body
+
+(Image HERE) clamp screw and clamp body connected
 
  - Clamp Screw Bottoms
 Remove supports as usual, lightly file the pegs to remove roughness, add chamfer to the pegs with a file.

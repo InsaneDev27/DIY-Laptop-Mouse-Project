@@ -153,45 +153,46 @@ Completed Right Click Trigger:
  - Scroll Wheel
  Whether or not this was printed in metal, start by filing down the cylinder that supports the side opposite the hexagonal axle.
 
-(Image HERE) filing down the cylinder opposite the hex axle
+<img alt="Filing down the cylinder opposite the hex axle" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Filing%20Cylinder%20Opposite%20Hex%20Axle.jpg" width="400">
 
 From there, test fit with the Left Body. If the part does not fit easily in the slot, start removing material from the Left Body. By the end, the Scroll Wheel should be able to spin in the slot with zero resistance from the Left Body.
 
-(Image HERE) Removing material from scroll wheel slot
+<img alt="Removing material from scroll wheel slot" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Adjusting%20Scroll%20Wheel%20Slot.jpg" width="400">
 
 Then test fit the part with the rotary encoder. If much resistance is encountered, cease insertion immediately, remove and file down the indivual sides, trying to make sure material is removed from each side equally.
 
-(Image HERE) Filing down scroll wheel axle
+<img alt="Filing down scroll wheel axle" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Filing%20Scroll%20Wheel%20Hex%20Axle.jpg" width="400">
 
-(Image HERE) Test fitting with rotary encoder
+<img alt="Test fitting with rotary encoder" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Scroll%20Wheel%20with%20Rotary%20Encoder.jpg" width="400">
 
-(Image HERE) test fitting scroll wheel assembly with Left Body
+<img alt="Test fitting scroll wheel assembly with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Scroll%20Wheel%20Assembly%20and%20Left%20Body%20(during%20post-processing).jpg" width="400">
 
-(Image HERE) finished Scroll Wheel
+<img alt="Finished Scroll Wheel" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Scroll%20Wheel.jpg" width="400">
 
  - Clamp Body
  When removing support, avoid putting pressure on the swivel where it connects to the body.
 
-(Image HERE) - broken swivel\
+<img alt="Broken swivel" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Broken%20Clamp%20Body%20Swivel.jpg" width="400">
 
 Once all support is removed, file down the inside face of between the top and bottom until mostly smooth.
 
-(Image HERE) - smooth inside face\
+<img alt="Smooth inside face" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Filed%20Smooth%20Clamp%20Body.jpg" width="400">
 
 Then, use a lighter or heat gun to recolor this segment. Avoid severely melting or warping the part.
 
-(Image HERE) (using lighter)
+<img alt="Using lighter to recolor Clamp Body 1" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Using%20Fire%20to%20Recolor%20Clamp%20Body.jpg" width="400">
+<img alt="Using lighter to recolor Clamp Body 2" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Using%20Fire%20to%20Recolor%20Clamp%20Body%20(progress).jpg" width="400">
 
-(Image HERE) successfully recolored 1
-(Image HERE) successfully recolored 2
+<img alt="Successfully recolored 1" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Successfully%20Recolored%20Clamp%20Body%201.jpg" width="400">
+<img alt="Successfully recolored 2" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Successfully%20Recolored%20Clamp%20Body%202.jpg" width="400">
 
-(Image HERE) warped clamp body
+<img alt="Warped Clamp Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Warped%20Recolor%20Attempt.jpg" width="400">
 
 After this, use a 3/8" - 16 or 3/8" - 24 inside tapping tool to thread the hole for the screw
 
-(Image HERE) (tapping
+<img alt="Tapping Clamp Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Tapping%20Clamp%20Body.jpg" width="400">
 
-(Image HERE) completed clamp body
+<img alt="Completed Clamp Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Clamp%20Body.jpg" width="400">
 
  - Clamp Screw
  Remove supports, file down the face under the head of the screw. Then, use a 3/8" - 16 or a 3/8" - 24 (must be same as used on clamp body) outside tapping tool to thread the screw. Use pliers to grip close to the tapping tool to prevent breaking the part. once your pliers run out of room above the tapping tool, position them below, and keep tapping. Don't worry about grooves left by the pliers, as the tapping tool will mostly fix this on the way back down.

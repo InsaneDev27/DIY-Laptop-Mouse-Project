@@ -409,4 +409,5 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
 
 Overall, this project has been a blast for me. I now have a working device that I can use as a mouse whenever I want to use my laptop on my lap. I accomplished what I set out to do. I have learned a lot through this project and there are many ways in which I would approach it differently were I to restart. While this is as far as I am willing to take the concept and project, my hope is that you or someone like you will find this project and modify it or use it as inspiration to create the next generation of Laptop Mouse Projects. If you choose to take that path, I would love if you would share it with me through GitHub. I hope that you have enjoyed this project as much as I have, and Happy Making!
 
-This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) for further information.
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE-MIT](LICENSE-MIT) for further information.
+All STL files and images are licensed under the [CC-BY-SA-4.0](LICENSE-CC-BY-SA-4.0). See [LICENSE-CC-BY-SA-4.0](LICENSE-CC-BY-SA-4.0)

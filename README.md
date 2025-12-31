@@ -58,21 +58,21 @@ Cost Breakdown (including shipping to the US):
  
  #### Pinout Diagram:
 
-![Project Pinout](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pi%20Pico%20Pinout%20for%20LMP.jpg)
+<img alt="Project Pinout" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pi%20Pico%20Pinout%20for%20LMP.jpg" width="700">
 
 NOTE: On the rotary encoder, there should be 2 legs on the sides that attach to the frame, but are not electrical. For these, simply cut them off, as they will interfere with assembly later, and will only cause confusion in the soldering stage.
 
-![Rotary encoder pins to cut off](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Rotary%20Encoder%20diagram%20to%20cut%20off%20extra%20legs.jpg)
+<img alt="Rotary encoder pins to cut off" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Rotary%20Encoder%20diagram%20to%20cut%20off%20extra%20legs.jpg" width="200">
 
 NOTE: The ground wires from the left mouse button (LMB) and right mouse button (RMB) are connected in my diagrams. I have done this by simply soldering the LMB ground to the pico, then the RMB ground to the LMB ground. I connected the two wires in this way to consolodate the wire spead and, in a previous design, other ground ports were blocked. However, if you would like to avoid having to connect the two wires, there is another ground pin on the pico 13 pins down on the left where you can route a longer ground wire to from one of the buttons.
 
-![Secondary ground location](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Alternative%20Ground%20Position%20on%20Pico.png)
+<img alt="Secondary ground location" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Alternative%20Ground%20Position%20on%20Pico.png" width="700">
  
  #### Final Soldered Assembly:
 
- ![Final Soldered Assembly 1](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Final%20Soldered%20Assembly%201.jpg)
+ <img alt="Final Soldered Assembly 1" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Final%20Soldered%20Assembly%201.jpg" width="700">
 
- ![Final Soldered Assembly 2](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Final%20Soldered%20Assembly%202.jpg)
+ <img alt="Final Soldered Assembly 2" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Final%20Soldered%20Assembly%202.jpg" width="200">
 
 ### Code
    
@@ -103,52 +103,54 @@ Begin by removing support material as usual. Then, use a spare 4-pin pushbutton 
 
 <img alt="Test fitting left and right click 4-pin push buttons with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%204-Pin%20Buttons%20with%20Left%20Body.jpg" width="400">
 
-![Cleaning out thumbstick base slot on Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Removing%20Supports%20from%20Thumbstick%20Slot%20on%20Left%20Body.jpg)
+<img alt="Cleaning out thumbstick base slot on Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Removing%20Supports%20from%20Thumbstick%20Slot%20on%20Left%20Body.jpg" width="600">
 
-![Test fitting thumbstick with Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Thumbstick%20with%20Left%20Body.jpg)
+<img alt="Test fitting thumbstick with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Thumbstick%20with%20Left%20Body.jpg" width="400">
 
-Completed Left Body:
-![Completed Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Left%20Body.jpg)
+Completed Left Body:\
+<img alt="Completed Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Left%20Body.jpg" width="600">
 
 NOTE: Avoid filing and removing material from anywhere that will be visible on the completed assembly, as this will likely result in discoloration that is difficult to fix.
 
  - Right Body
 Repeat the process explained for the Left Body. Pay attention to the cylindrical region of the front (left click) trigger slot, as this is often a source of resistance. If needed, this can be filed square on both the Right Body and the Left Body.
 
-![Filing Left Click Trigger slot square](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pointing%20Out%20Cylindrical%20Slot%20for%20Left%20Click%20Trigger%20on%20Right%20Body.jpg)
+<img alt="Filing Left Click Trigger slot square" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pointing%20Out%20Cylindrical%20Slot%20for%20Left%20Click%20Trigger%20on%20Right%20Body.jpg" width="400">
 
-Completed Right Body:
-![Completed Right Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Completed%20Right%20Body.jpg)
+Completed Right Body:\
+<img alt="Completed Right Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Completed%20Right%20Body.jpg" width="600">
 
-![Test fitting with Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20both%20Bodies.jpg)
+<img alt="Test fitting with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20both%20Bodies.jpg" width="400">
 
  - Left Click Trigger
 Remove all support, file the cylindrical extrusion to remove any surface imperfections that result in drag. Test fit with each side of the body checking for resistance. Additionally, the wings of the trigger (the extrusions that stop the trigger from falling out) can be too long. Be sure thst these allow the trigger to slide long enough, and do not cause interference.
 
-![Adjusting wing on Left Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Adjusting%20the%20Wings%20on%20Left%20Click%20Trigger.jpg)
+<img alt="Adjusting wing on Left Click Trigger" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Adjusting%20the%20Wings%20on%20Left%20Click%20Trigger.jpg" width="400">
 
 Finally, assemble both sides, sanwiching the trigger, and make sure there is no new interference.
 
-Completed Left Click Trigger:
-![Left Trigger done](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Left%20Click%20Trigger.jpg)
+Completed Left Click Trigger:\
+<img alt="Left Trigger done" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Left%20Click%20Trigger.jpg" width="400">
 
  - Right Click Trigger
  When removing support, remember to not put stress on the pivot axle of the part and that the three small arms that anchor the plunger can get in the way of removing support. These support arms may not always be necessary, and can be removed if needed.
 
-![Point out swivel arm on Right Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Swivel%20Axle%20of%20Right%20Click%20Trigger.jpg)
-![Point out swivel arm on Right Click Trigger (supports removed)](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pointing%20Out%20the%20Swivel%20Arm%20of%20Right%20Click%20Trigger%20with%20Supports%20Removed.jpg)
+Look out for:\
+<img alt="Point out swivel arm on Right Click Trigger" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Swivel%20Axle%20of%20Right%20Click%20Trigger.jpg" width="400">
+<img alt="Point out swivel arm on Right Click Trigger (supports removed)" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pointing%20Out%20the%20Swivel%20Arm%20of%20Right%20Click%20Trigger%20with%20Supports%20Removed.jpg" width="400">
 
-![The three small arms](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pointing%20Out%20one%20of%20the%20Supporting%20Arms%20on%20Right%20Click%20Trigger.jpg)
-![Mock-removal of one small arm with knife](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Removing%20Supporting%20Arms%20from%20Right%20Click%20Trigger.jpg)
+The small arms:\
+<img alt="The three small arms" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pointing%20Out%20one%20of%20the%20Supporting%20Arms%20on%20Right%20Click%20Trigger.jpg" width="400">
+<img alt="Mock-removal of one small arm with knife" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Removing%20Supporting%20Arms%20from%20Right%20Click%20Trigger.jpg" width="400">
 
 After the basic support removal, file down the inside top edge of the part until all suport residue is gone, file down the plunger, then test fit with the Left Body, and remove material from both parts as needed.
 
-Completed Right Click Trigger:
-![Finished Right Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Right%20Click%20Trigger.jpg)
+Completed Right Click Trigger:\
+<img alt="Finished Right Click Trigger" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Right%20Click%20Trigger.jpg" width="600">
 
-![Test fitting with the Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Right%20Click%20Trigger%20with%20Left%20Click.jpg)
+<img alt="Test fitting with the Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Right%20Click%20Trigger%20with%20Left%20Click.jpg" width="400">
 
-![Removing material from the Left Body on the top of the right click trigger slot](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Right%20Click%20Trigger%20with%20Left%20Click.jpg)
+<img alt="Removing material from the Left Body on the top of the right click trigger slot" src="" width="400">
 
  - Scroll Wheel
  Whether or not this was printed in metal, start by filing down the cylinder that supports the side opposite the hexagonal axle.
@@ -165,7 +167,7 @@ Then test fit the part with the rotary encoder. If much resistance is encountere
 
 <img alt="Test fitting with rotary encoder" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Scroll%20Wheel%20with%20Rotary%20Encoder.jpg" width="400">
 
-<img alt="Test fitting scroll wheel assembly with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Scroll%20Wheel%20Assembly%20and%20Left%20Body%20(during%20post-processing).jpg" width="400">
+<img alt="Test fitting scroll wheel assembly with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Scroll%20Wheel%20Assembly%20and%20Left%20Body%20(during%20post-processing" width="400">.jpg" width="400">
 
 <img alt="Finished Scroll Wheel" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Scroll%20Wheel.jpg" width="400">
 
@@ -197,46 +199,43 @@ After this, use a 3/8" - 16 or 3/8" - 24 inside tapping tool to thread the hole 
  - Clamp Screw
  Remove supports, file down the face under the head of the screw. Then, use a 3/8" - 16 or a 3/8" - 24 (must be same as used on clamp body) outside tapping tool to thread the screw. Use pliers to grip close to the tapping tool to prevent breaking the part. once your pliers run out of room above the tapping tool, position them below, and keep tapping. Don't worry about grooves left by the pliers, as the tapping tool will mostly fix this on the way back down.
 
-(Image HERE) (tapping with pliers close to tap)
+<img alt="Tapping with pliers close to tap" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pliers%20Close%20to%20Tapping%20Device%20on%20Clamp%20Screw.jpg" width="400">
 
-Reason for switched grip tapping:
-(Image HERE) reason for switched grip
+Reason for switched grip tapping:\
+<img alt="Reason for switched grip" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Reason%20for%20Switched%20Grip.jpg" width="400">
 
-(Image HERE) switched grip tapping
+<img alt="Switched grip tapping" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Final%20Position%20of%20Tapping%20Device%20Clamp%20Screw.jpg" width="400">
 
-(Image HERE) final position of the tapping device
+<img alt="Final position of the tapping device" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Final%20Position%20of%20Tapping%20Device.jpg" width="400">
 
-(Image HERE) finished tap
+<img alt="Finished tap" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Clamp%20Screw.jpg" width="400">
 
-(Image HERE) clearing material from peg hole on Clamp Screw
+<img alt="Clearing material from peg hole on Clamp Screw" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Removing%20Material%20from%20Peg%20Slot%20on%20Clamp%20Screw.jpg" width="400">
 
 Finally, use a lighter or a heat gun to recolor the screw. Use caution and quick sweeps, as this part warps very easily.
 
-(Image HERE) (using lighter, finished part, warped part)
+<img alt="Recoloring Clamp Screw" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Recoloring%20Clamp%20Screw.jpg" width="400">
 
 You can now screw the Clamp Screw into the Clamp Body
-
-(Image HERE) clamp screw and clamp body connected
 
  - Clamp Screw Bottoms
 Remove supports as usual, lightly file the pegs to remove roughness, add chamfer to the pegs with a file.
 
-(Image HERE) -lightly filed and chamfered pegs\
+<img alt="Lightly filed and chamfered pegs" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Chamfered%20Pegs%20on%20Clamp%20Screw%20Bottom%20-%20Male.jpg" width="400">
 
 On the female side, remove supports from the holes and make sure there is no residual material in the holes.
 
-(Image HERE) automotive pick cleaning inside the holes (hit from the back with curved one)
-
-(Image HERE) -cleared holes\
+<img alt="Finished Clamp Screw Bottom - F" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Clamp%20Screw%20Bottom%20-%20Female.jpg" width="400">
 
 Then gently place the two halves together, making sure not to completely attach the two sides as they should only go together with a lot of force. Remove material from the pegs until the first quarter of the pegs can go into the holes. Again, the fit is intended to be tight, and not be assembled until the final installation with the clamp screw. Once ready, screw the Clamp Screw into the Clamp Body, then run the center peg of the male Clamp Screw Bottom through the hole at the bottom of the Clamp Screw.
 
-(Image HERE) - assembly with only male side\
+<img alt="Clamp screw and clamp body connected" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Clamp%20Screw%20and%20Clamp%20Body%20together.jpg" width="400">
 
 Then line up the female side of the Clamp Screw Bottom with the male side and use pliers to press fit the sides together. If the female side starts warping excessively, gently remove using a knife or wedge to separate the parts, then file the pegs again. Repeat until fits properly.
 
-(Image HERE) -completed assembly
+<img alt="Assembling the bottoms with Clamp Screw and Clamp Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Assembling%20Clamp%20Screw%20Bottoms%20with%20Clamp%20Screw.jpg" width="400">
 
+<img alt="Completed Clamp Body assembly" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Completed%20Clamp%20Body%20Assembly.jpg" width="400">
 
  ### Assembly + Notes:
    
@@ -249,26 +248,26 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    #### Right Mouse Button
    I normally use my automotive picks to slot the button in place, and use another pick or an unwound paper clip to check if the button clicks as intended.
    
-   ![Slotting right click button in place using automotive pick (button not highlighted)](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Not%20Highlighted).jpg)
+   <img alt="Slotting right click button in place using automotive pick (button not highlighted)" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Not%20Highlighted).jpg" width="400">
    
-   ![Slotting right click button in place using automotive pick (button highlighted)](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Highlighted).jpg)
+   <img alt="Slotting right click button in place using automotive pick (button highlighted)" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Button%20(Highlighted).jpg" width="400">
    
-   Checking click with a paper clip:
-   ![Checking click with a paper clip](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Checking%20Right%20Click%20Button%20With%20Paper%20Clip.jpg)
+   Checking click with a paper clip:\
+   <img alt="Checking click with a paper clip" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Checking%20Right%20Click%20Button%20With%20Paper%20Clip.jpg" width="400">
    
    Once in place, add super glue to where the button meets the plastic shell on the back right side of the button, making sure to avoid gluing the button open (where it refuses to depress).
    
-   ![Gluing the right click button in place](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Gluing%20in%20Right%20Click%20Button.jpg)
+   <img alt="Gluing the right click button in place" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Gluing%20in%20Right%20Click%20Button.jpg" width="400">
    
    #### Raspberry Pi Pico
    
    After installing the left click, I normally slot in the Pico. Make sure that no wires are being pinched between the wall of the body and the pico, and simply slot it in. (Be sure the glue is dry if you are worried about the wires pulling the right mouse button out of place)
    
-   ![Pico slotted in place](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pico%20Slotted.jpg)
+   <img alt="Pico slotted in place" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pico%20Slotted.jpg" width="400">
    ##### Left Mouse Button
    Before installing the left mouse button, I usually bend the thumbstick under the body to get it out of the way. 
    
-   ![Thumbstick bent under the body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Bending%20Thumbstick%20Under%20Body.jpg)
+   <img alt="Thumbstick bent under the body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Bending%20Thumbstick%20Under%20Body.jpg" width="400">
    
    From there, it is a matter of bending wires and positioning the button in the slot. After this, install the thumbstick as described below, then put the two sides together and make sure the button and thumbstick align properly on both sides. If everything fits properly, you can use super glue to attach the button to the left side of the body if desired (be careful not to glue the two halves of the body together).
    
@@ -276,115 +275,115 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    
    Simply slide into the slots on the left side of the body. Support material often gets clogged in there, so some clearancing may be necessary.
    
-   ![Attaching the Thumbstick to the Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Thumbstick%20Base%20Installed%20in%20Left%20Body.jpg)
+   <img alt="Attaching the Thumbstick to the Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Thumbstick%20Base%20Installed%20in%20Left%20Body.jpg" width="400">
 
    After this, try attaching the Right Body to check the fit of the left click button and the Thumbstick. The wires going to the Thumbstick board may need to be bent out of the way. When bending these wires, be sure to separate the power wire from the others. When this wire gets squeezed against the x and y axis wires it can sometimes cause interference that causes the cursor to behave erratically and uncontrollably.
 
-   ![Arranging wires before fitting together](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Arranging%20Wires%20After%20Electronics%20Installed.jpg)
+   <img alt="Arranging wires before fitting together" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Arranging%20Wires%20After%20Electronics%20Installed.jpg" width="400">
    
-   ![Attaching the two sides](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Two%20Sides%20Fit%20Check%20With%20LMB%20and%20Thumbstick.jpg)
+   <img alt="Attaching the two sides" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Two%20Sides%20Fit%20Check%20With%20LMB%20and%20Thumbstick.jpg" width="400">
    
    #### Rotary Encoder
    
    Before installing, push the axle of the Scroll Wheel into the back side of the encoder. This should slide in easily. If it does not, immediately remove the scroll wheel and file it down before retrying.
    
-   ![Scroll Wheel attached to the rotary encoder](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Scroll%20Wheel%20Attached%20to%20Rotary%20Encoder.jpg)
+   <img alt="Scroll Wheel attached to the rotary encoder" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Scroll%20Wheel%20Attached%20to%20Rotary%20Encoder.jpg" width="400">
    
    When the Scroll Wheel is installed, slide the assembly into the designated slot. This too should be relatively effortless once positioned correctly (which sometimes takes some time), and if it isn't, file the slot down and then retry.
    
-   ![Scroll Wheel assembly being installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Scroll%20Wheel%20Assembly.jpg)
+   <img alt="Scroll Wheel assembly being installed" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Scroll%20Wheel%20Assembly.jpg" width="400">
 
-   ![Scroll Wheel assembly fully installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Scroll%20Wheel%20Assembly%20Installed.jpg)
+   <img alt="Scroll Wheel assembly fully installed" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Scroll%20Wheel%20Assembly%20Installed.jpg" width="400">
    
    #### Attaching the Cable
    
    After all of the electronics are installed, I typically run the cable through the clamp body, then plug it into the pico. If the head of the USB Micro end of the cable doesn't fit in the provided hole in the clamp body, then shave off some of the rubber at the head. To avoid exposing wires, give around a millimeter on all sides of the plug.
 
-   The cable head doesn't fit through the Clamp Body:
-   ![Cable head does not fit](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cable%20Head%20Does%20Not%20Fit.jpg)
+   The cable head doesn't fit through the Clamp Body:\
+   <img alt="Cable head does not fit" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cable%20Head%20Does%20Not%20Fit.jpg" width="400">
 
-   ![Shaving the cable head](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Shaving%20Head.jpg)
+   <img alt="Shaving the cable head" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Shaving%20Head.jpg" width="400">
    
-   ![Shaved head](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Shaved%20Head.jpg)
+   <img alt="Shaved head" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Shaved%20Head.jpg" width="400">
    
-   ![Shaved head through Clamp Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Shaved%20Head%20Through%20Clamp%20Body.jpg)
+   <img alt="Shaved head through Clamp Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Shaved%20Head%20Through%20Clamp%20Body.jpg" width="400">
    
    From there, I normally have to use pliers to install the cable into the Pico due to the rubber head hitting the roof of the body.
    
-   ![Attaching the cable head to the Pico with pliers](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Attaching%20Cable%20to%20Pico%20with%20Pliers.jpg)
+   <img alt="Attaching the cable head to the Pico with pliers" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Attaching%20Cable%20to%20Pico%20with%20Pliers.jpg" width="400">
 
    Finally, I route the wires and attach the Clamp Body to the Left Body, securing it with the Clamp Port Cap.
 
-   ![Routing the cable](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cable%20Routing.jpg)
+   <img alt="Routing the cable" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cable%20Routing.jpg" width="400">
 
-   ![Attaching Clamp Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cable%20Routed%20and%20Clamp%20Body%20Attached.jpg)
+   <img alt="Attaching Clamp Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cable%20Routed%20and%20Clamp%20Body%20Attached.jpg" width="400">
 
-   ![Secure with Clamp Port Cap](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Clamp%20Port%20Cap%20Installed%20Not%20Filed.jpg)
+   <img alt="Secure with Clamp Port Cap" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Clamp%20Port%20Cap%20Installed%20Not%20Filed.jpg" width="400">
 
-   File down the Clamp Port Cap so that it will sit flush:
-   ![File down Clamp Port Cap so it sits flush](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Clamp%20Port%20Cap%20Filed%20and%20Installed.jpg)
+   File down the Clamp Port Cap so that it will sit flush:\
+   <img alt="File down Clamp Port Cap so it sits flush" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Clamp%20Port%20Cap%20Filed%20and%20Installed.jpg" width="400">
    
    #### Installing the Triggers and Thumbstick Cover
    
    To begin the process, I normally start with the Left Click Trigger, as it is the last piece needed to attach the two halves. To install the trigger, first, double check that the space between the end of the slide limiters and the electronic button is slightly too long. In this case, just cut off material from the tip.
 
-   Why I needed to cut off the tip of the Left Click Trigger:
-   ![Why I needed to cut off the tip of the Left Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Why%20Left%20Click%20Trigger%20Tip%20Needs%20Cutting.jpg)
+   Why I needed to cut off the tip of the Left Click Trigger:\
+   <img alt="Why I needed to cut off the tip of the Left Click Trigger" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Why%20Left%20Click%20Trigger%20Tip%20Needs%20Cutting.jpg" width="400">
 
-   ![Cutting off tip of Left Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cutting%20Tip%20Off%20Left%20Click%20Trigger.jpg)
+   <img alt="Cutting off tip of Left Click Trigger" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cutting%20Tip%20Off%20Left%20Click%20Trigger.jpg" width="400">
 
-   ![Severed tip of Left Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Severed%20Left%20Click%20Trigger%20Tip.jpg)
+   <img alt="Severed tip of Left Click Trigger" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Severed%20Left%20Click%20Trigger%20Tip.jpg" width="400">
 
-   ![Corrected fit of Left Click Trigger with Left Body](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Left%20Click%20Trigger%20Properly%20Fitted.jpg)
+   <img alt="Corrected fit of Left Click Trigger with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Left%20Click%20Trigger%20Properly%20Fitted.jpg" width="400">
    
    From there, simply place the trigger in the half with all the electronics, and attach the other side.
    
-   ![Preparing to connect the two sides](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Left%20Click%20Trigger.jpg)
+   <img alt="Preparing to connect the two sides" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Left%20Click%20Trigger.jpg" width="400">
 
-   ![Two halves connected](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Left%20Click%20Trigger%20Installed%20Fit%20Check.jpg)
+   <img alt="Two halves connected" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Left%20Click%20Trigger%20Installed%20Fit%20Check.jpg" width="400">
    
    Assuming the trigger still works as desired and slides well, you can use the 3/4" screws to secure the two halves together.
    
-   ![Installing first screw](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Screwing%20in%20%234%20-%203_4_%20Machine%20Screw.jpg)
+   <img alt="Installing first screw" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Screwing%20in%20%234%20-%203_4_%20Machine%20Screw.jpg" width="400">
 
-   ![All screws installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/All%20Screws%20Attached.jpg)
+   <img alt="All screws installed" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/All%20Screws%20Attached.jpg" width="400">
 
    
 
    After both sides are attached, I transition to the Right Click Trigger. The main point of struggle with this piece is the extender for the plunger. This part prints attached to a long handle for easier filing and adjustment. Using the handle, push the Plunger Extender into the hole on the left side of the body.
    
-   ![Original Plunger Extender fit check using handle](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Initial%20Fit%20Check%20of%20Plunger%20Extender.jpg)
+   <img alt="Original Plunger Extender fit check using handle" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Initial%20Fit%20Check%20of%20Plunger%20Extender.jpg" width="400">
    
    If any resistance is encountered, stop immediately, gently remove the extender, and file it down in the areas that were causing struggle.
    
-   ![Filing down Plunger Extender](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Filing%20Plunger%20Extender.jpg)
+   <img alt="Filing down Plunger Extender" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Filing%20Plunger%20Extender.jpg" width="400">
 
-   ![Re-checking Plunger Extender fit after filing](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Re-Checking%20Plunger%20Extender%20Fit%20Using%20Handle.jpg)
+   <img alt="Re-checking Plunger Extender fit after filing" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Re-Checking%20Plunger%20Extender%20Fit%20Using%20Handle.jpg" width="400">
    
    Repeat this process as needed. Once the extender is satisfactory, cut off the handle and place the extender in the hole with the center of the torus segment facing the front of the device.
 
-   ![Severing the handle from the Plunger Extender](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cutting%20Handle%20off%20Plunger%20Extender.jpg)
+   <img alt="Severing the handle from the Plunger Extender" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cutting%20Handle%20off%20Plunger%20Extender.jpg" width="400">
 
-   ![Installing the Plunger Extender in the hole with the torus diagram](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Plunger%20Extender%20with%20Torus%20Diagram.jpg)
+   <img alt="Installing the Plunger Extender in the hole with the torus diagram" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Plunger%20Extender%20with%20Torus%20Diagram.jpg" width="400">
 
-   ![Plunger Extender fully installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Plunger%20Extender%20Installed.jpg)
+   <img alt="Plunger Extender fully installed" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Plunger%20Extender%20Installed.jpg" width="400">
    
    Once this is complete, simply attach the Right Click Trigger as shown previously.
    
-   ![Installing Right Click Trigger](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Trigger.jpg)
+   <img alt="Installing Right Click Trigger" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Trigger.jpg" width="400">
 
-   ![Right Click Trigger installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Right%20Click%20Trigger%20Installed.jpg)
+   <img alt="Right Click Trigger installed" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Right%20Click%20Trigger%20Installed.jpg" width="400">
 
 
 
    Finally, it is time for the Thumbstick Cover. This part can be tricky to get right, but focus on not removing too much material from the hole in the Thumbstick Cover, else it will become wobbly during use. Align the hole of the cover with the stick of the Thumbstick, and try to press on. This takes some force, but if it will not slide on, start removing material from the hole. The hole is ovular, so avoid using drills or circular options.
 
 
-   ![Adjusting Thumbstick Cover](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Adjusting%20Thumbstick%20Hole.jpg)
+   <img alt="Adjusting Thumbstick Cover" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Adjusting%20Thumbstick%20Hole.jpg" width="400">
    
    If you printed this with less walls, the added flex of the material should assist with installation. If not, keep removing material until you are able to press the thumstick in place. Once installed, if you desire, you can add super glue to secure the cover.
    
-   ![Thumbstick Cover fully installed](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Thumbstick%20Cap%20Installed.jpg)
+   <img alt="Thumbstick Cover fully installed" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Thumbstick%20Cap%20Installed.jpg" width="400">
 
    
 

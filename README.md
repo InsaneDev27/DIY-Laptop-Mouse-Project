@@ -82,7 +82,7 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
 
  <img alt="Installing CircuitPython" src="" width="600">
 
- Once CircuitPython is installed, drag and drop the code folder onto the pico: [code](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/tree/main/Code/code).
+ Once CircuitPython is installed, drag and drop the contents of the code folder onto the pico, making sure that main.py is not buried in a folder on the Pico: [code](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/tree/main/Code/code).
 
  <img alt="Downloading code" src="" width="600">
 

@@ -4,7 +4,7 @@ The Laptop Mouse Project (LMP) is a DIY fix to discomfort caused by prolonged us
 
 ## Intro
 
-
+I began this project because I have always been extremely disatisfied with laptop trackpads. Trackpads cause my wrist discomfort after prolonged use, especially when I am using my laptop on my lap. I realized that I am not the only one that feels this way, and set out to design a suitable alternative that would fix this discomfort. I hope that my solution will work for you as well.
 
 ## Required Skills
 

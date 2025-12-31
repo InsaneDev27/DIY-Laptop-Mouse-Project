@@ -27,11 +27,11 @@ I began this project because I have always been extremely disatisfied with lapto
 Estimated Total Cost (with shipping to the US and outsourcing the scroll wheel): $40 to $60
 
 Cost Breakdown (including shipping to the US):
- - $32 - Scroll Wheel in Metal (this is for Stainless Steel SLA on PCBWay) (Resin printing may also be strong enough, and is more cost effective at ~$10 on PCBWay)
+ - $10 - Resin Printed Scroll Wheel (this is for resin printing on PCBWay, and includes shipping to the US) (I ordered Stainless Steel SLA on PCBWay for added strength and visual appeal, which cost $32)
  - $12 - Adafruit Joystick
  - $4 - 5mm Rotary Encoder (possible to harvest from an old mouse)
  - $8 - Raspberry Pi Pico
- - $3 - ~136g of PLA filliment
+ - $5 - ~200g of PLA filliment
 
 ## Tools List
 

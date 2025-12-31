@@ -401,9 +401,9 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
 
 ## Final Results
 
-<img alt="Finished Project alone" src="" width="700">
+<img alt="Finished Project alone" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Project%20alone.jpg" width="700">
 
-<img alt="Finished Project in hand" src="" width="700">
+<img alt="Finished Project in hand" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Project%20in%20Hand.jpg" width="700">
 
 ## Conclusion and Final Thoughts
 

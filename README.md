@@ -106,17 +106,34 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
 
 ### 3-D Printing
 
- #### 3-D Printing Files:
- (maybe outsource to thingiverse?)
+ #### Parts List:
+ - Cap for clamp port on Left Body
+ - Clamp Body
+ - (optional) Clamp delete plug for Left Body
+ - Clamp Screw
+ - Clamp Screw Bottom - Female
+ - Clamp Screw Bottom - Male
+ - Plunger Extender for Right Click Trigger
+ - Left Body
+ - Right Body
+ - Scroll Wheel
+ - Thumbstick Cap
+ - Top Cover
+ - Left Click Trigger
+ - Right Click Trigger
  
  #### 3-D Printing Notes:
- (settings / fuzzy skin)
- (SCREW MUST BE PRINTED SOLID)
- (Scroll-Wheel troubles with FDM, what I did to work around this)
- (fitment is not universal; some post-processing and tolerance adjusting are necessary)
- (optional cap if don't want clamp)
- (print less walls on thumstick for easy installation)
- (thumbstick can use any aftermarket thumbstick, as long as it is comfortable)
+ For the most part, the 3-D printing process is fairly standard and straightforward. However, there are a couple of settings and suggestions that I found helpful. The first is Fuzzy Skin. On most of the parts in the project, I used fuzzy skin to hide layer lines and provide a more premium appearance to the end-result. This does take a little more time and slightly more filament, but it was worth it for me. Below are the Fuzzy Skin settings that I used with my Elegoo Neptune 3 Pro.
+
+ <img alt="Fuzzy Skin settings" src="" width="400">
+
+ I enabled the Fuzzy Skin on every part except for the two triggers and Scroll Wheel. My second suggestion is to print the Clamp Screw with 100% infill. I could not figure out how to add threads to the screw in my modelling software, necessetating thread tapping in post processing. When I tried to tap the Clamp Screw without 100% infill, the outer walls stripped from the infill and rendered the part useless. The Clamp Body, however, because it needs inside diameter tapping, does not need to be printed in 100% infill. Additionally, if the Clamp Body is printed in 100% infill, it will likely not have the same strength as less infill. If you find a way to add threads to the screw and Clamp Body, you can print with your normal infill settings.
+
+ I would also reccomend printing with less walls on the thumbstick cap to allow the slot to flex for a tight interface with the thumbstick shaft. Additionally, as long as you can make it fit with the Top Cover, any thumbstick cap should work if there is a specific design you prefer.
+
+ Finally, my last suggestion is to outsource the printing of the Scroll Wheel unless you have a resin printer. My experience with FDM printing the Scroll Wheel in PLA was that it always broke along the layer lines of the hex axle due to rotational force when attached to the rotary encoder. After many failed attempts, I ordered the Scroll Wheel off of PCBWay to be printed in Stainless Steel. While this was not very budget-friendly and the cheaper resin printing option would probably be strong enough, I did not want any doubt of success and prefered the premium quality that metal adds to a design.
+
+ I also want to remind you that fitment is not universal, and the tolerances that worked with my printer and filament may not work with your setup. Additionally, some post processing and tolerance adjustments are warranted. I printed everything on an Elegoo Neptune 3 Pro with black eSUN PLA+. Lastly, if you would like to build the project without the clamp, simply print the "Clamp delete plug for Body - M" instead of the clamp parts, and disregard the clamp assembly section below.
 
  #### Post-Processing and Tolerancing:
  **Left Body**

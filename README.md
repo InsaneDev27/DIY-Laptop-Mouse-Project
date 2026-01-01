@@ -96,13 +96,13 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
  Now, simply eject the pico, disconnect and reconnect the device. Make sure that all the electronics function properly and interface with your computer. Most of the code should be plug-and-play, but you may want to adjust the scroll wheel sensitivity and settings, or change/configure commands (RMB+LMB => your function).
  To do this, open the "main" file on your Pico. Most of the variables and code related to the Scroll Wheel is to implement a sort of psuedo-fast-scrolling, which is supposed to detect when the user scrolls in rapid succession and boost the effect of each scroll similarly to touchscreen scrolling. You can simply delete or comment out all of this code if you do not want this functionality, and tune the sensitivity manually. If you would like to investigate the psuedo-fast-scrolling, however, start by uncommenting the print file.
 
- <img alt="Uncommenting print" src="" width="600">
+ <img alt="Uncommenting print" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/print%20function%20for%20scroll%20wheel%20output.png" width="600">
 
   In the output, numOfIncrementsRecently corresponds to the amount of physical clicks when the rotary encoder detects rotation. It is reset every time sensitivity is increased, and it is used to determine the amount of clicks that pass between each increase in speed. `if([numOfIncrementsRecently > 1] && [timeSinceLastFast <= maxTimeBetweenFastScroll]) {//increase sensitivity}`. lastTime refers to the last time the rotary encoder detected rotation (physical click). lastTimeFast is the last time that criteria was met to scroll fast. lastTimeSet tracks the last time fast scrolling was initiated. This is used as a secondary check to determine inelegibilty for scrolling fast. `if([(lastTimeFast > maxTimeSinceLastFast) && (lastTimeSet > 1)] || [scroll direction changed]) {//ineligble to go fast}`. Finally, encoderFactor is the sensitivity of the scroll wheel. Using these outputs, you can adjust maxTimeBetweenFastScroll, maxTimeSinceLastFast, encoderFactorBaseValue, the horsepower boost value (originally set to +=1), and how the encoderFactor gets increased. My settings work for my hand and my scroll speed, but they might not work for everyone. Additionally, the way I chose to implement pseudo-fast-scrolling may not be the best or most efficient way to accomplish this, and you can rewrite the whole system if you so desire.
   
   Lastly, the commands can be customized. Originally I have it set so that when all three buttons are pressed simutaneuosly (LMB+RMB+CMB), thumbstick sensitivity (similar to DPI) is cycled, and when only left and right click are pressed together, sensitivity is set to low to make fine motion easier. However, these commands can be altered or removed, and are located towards the bottom of the main function.
 
-  <img alt="Code for special commands" src="" width="600">
+  <img alt="Code for special commands" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Special%20commands.png" width="600">
 
 ### 3-D Printing
 

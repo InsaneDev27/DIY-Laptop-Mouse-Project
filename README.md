@@ -2,10 +2,9 @@
 
 The Laptop Mouse Project (LMP) is a DIY solution for discomfort caused by prolonged use of laptop trackpads. The LMP offers an ergonomic alternative to a typical mouse or trackpad and clamps to the side of laptops for stability and comfort. It is mostly 3-D printable, and all electronics can be found online.
 
+\
 <img alt="Finished LMP 1" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20LMP%201.jpg" width="400">
-
 <img alt="Finished LMP 2" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20LMP%202.jpg" width="400">
-
 <img alt="Finished LMP 3" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20LMP%203.jpg" width="400">
 
 ## Intro

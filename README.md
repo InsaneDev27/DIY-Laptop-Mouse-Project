@@ -1,6 +1,6 @@
 # DIY-Laptop-Mouse-Project
 
-The Laptop Mouse Project (LMP) is a DIY fix to discomfort caused by prolonged use of laptop trackpads. The LMP offers an ergonomic alternative to a typical mouse or trackpad and clamps to the side of laptops for stability and comfort. It is mostly 3-D printable, and all electronics can be found online.
+The Laptop Mouse Project (LMP) is a DIY solution for discomfort caused by prolonged use of laptop trackpads. The LMP offers an ergonomic alternative to a typical mouse or trackpad and clamps to the side of laptops for stability and comfort. It is mostly 3-D printable, and all electronics can be found online.
 
 ## Intro
 
@@ -11,7 +11,8 @@ I began this project because I have always been extremely disatisfied with lapto
  - Familiarity with 3-D printing and Slicers
  - Cleaning up 3-D prints, removing supports, and resolving small tolerance issues
  - Soldering
- - Familiarity with 3-D printing companies such as PCBWay or JLCPCB (only if your printer cannot print the scroll wheel strong enough)
+ - Familiarity with 3-D printing companies such as PCBWay or JLCPCB (only if your printer cannot print the Scroll Wheel strong enough)
+ - Some knowledge of programming in Python
 
 ## Parts List
 
@@ -21,10 +22,10 @@ I began this project because I have always been extremely disatisfied with lapto
  - 2x  4-Pin Push Buttons 6x6x5mm  (example: [amazon_button_pack](https://www.amazon.com/Momentary-Pushbutton-Switches-Breadboard-Electronic/dp/B09R42NFGN/ref=sr_1_1?crid=1DX43WGBWLIU5&dib=eyJ2IjoiMSJ9.DXk5BbxDHSiJJjCdTGdYFrGrHSPxeZjexUARIOWPXaGuUKrpvKHrZPfwT8M7QW-z1TUlZVRWF4wJ_uTXdLjK63bFAPTz3kdr7TUs7w-htF2f5IxVfRd6xHCcEwTcIxOgQ0LaYFem3NL6vboEB6tezYn8HnUeDWYJA6VTvSZ-diyOWkA4R6y9CyrQ1ruPFiN6XdGafszn4lFCSxWVGETcAyZZC9yobfY6JQMW6vzuPOs.Mj1qsziIMg95O4oHzvB9dXVHvoZIJiEi77VNEeLWRuQ&dib_tag=se&keywords=4%2Bpin%2Bbreadboard%2Bbutton%2B6x6x5&qid=1722558613&sprefix=4%2Bpin%2Bbreadboard%2Bbutton%2B6x6x5%2Caps%2C256&sr=8-1&th=1))
  - 3x  #4 ¾” Flathead Phillips Machine Screws
  - 4x  #4 ½” Flathead Phillips Machine Screws
- - 1x  USB to Micro USB Cable (3 ft, but can order different length to fit preferences)
+ - 1x  USB to Micro USB Cable (3 ft, but can be ordered different length to fit preferences)
  - Solid Single-Core 22 AWG Wire
 
-Estimated Total Cost (with shipping to the US and outsourcing the scroll wheel): $40 to $60
+Estimated Total Cost (with shipping to the US and outsourcing the Scroll Wheel production): $40 to $60
 
 Cost Breakdown (including shipping to the US):
  - $10 - Resin Printed Scroll Wheel (this is for resin printing on PCBWay, and includes shipping to the US) (I ordered Stainless Steel SLA on PCBWay for added strength and visual appeal, which cost $32)
@@ -38,13 +39,13 @@ Cost Breakdown (including shipping to the US):
  - 1x  Soldering Iron
  - 1x  Wire Stripper (22 gauge capable)
  - 1x  Needle-Nose Pliers
- - 1x  Thread-Tap (must include ⅜” - 16 or ⅜” - 24 outside and inside tap)
  - 1x  Phillips Screw Driver
+ - 1x  ⅜” - 16 or ⅜” - 24 Outside Diameter Thread-Tap and corresponding Inside Diameter Tap
  - Small Files
- - Razor/Carving Tools
+ - X-Acto Knife/Carving Tools
  - Automotive Picks (recommended for removing supports in tight places)
 
-## Assembly
+## Instructions
 
 ### Electronics
    
@@ -60,11 +61,11 @@ Cost Breakdown (including shipping to the US):
 
 <img alt="Project Pinout" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pi%20Pico%20Pinout%20for%20LMP.jpg" width="700">
 
-NOTE: On the rotary encoder, there should be 2 legs on the sides that attach to the frame, but are not electrical. For these, simply cut them off, as they will interfere with assembly later, and will only cause confusion in the soldering stage.
+NOTE: On the rotary encoder, there should be 2 legs on the sides that normally help align the encoder on a mouse board, but are not necessary. Simply cut these off, as they will interfere with assembly later and often cause confusion in the soldering stage.
 
 <img alt="Rotary encoder pins to cut off" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Rotary%20Encoder%20diagram%20to%20cut%20off%20extra%20legs.jpg" width="200">
 
-NOTE: The ground wires from the left mouse button (LMB) and right mouse button (RMB) are connected in my diagrams. I have done this by simply soldering the LMB ground to the pico, then the RMB ground to the LMB ground. I connected the two wires in this way to consolodate the wire spead and, in a previous design, other ground ports were blocked. However, if you would like to avoid having to connect the two wires, there is another ground pin on the pico 13 pins down on the left where you can route a longer ground wire to from one of the buttons.
+NOTE: The ground wires from the left mouse button (LMB) and right mouse button (RMB) are connected in my diagram and images. I did this to consolodate the wire spead and because in a previous design other ground ports were blocked. However, if you would like to avoid having to solder the two wires together, another ground pin is located 13 pins down on the left.
 
 <img alt="Secondary ground location" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Alternative%20Ground%20Position%20on%20Pico.png" width="700">
  
@@ -78,7 +79,7 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
    
  #### Configuring Raspberry Pi Pico:
 
- After everything is soldered to the Raspberry Pi Pico, connect the Pico to your computer. Navigate to the Pico in File Explorer, and drag and drop this file to the pico: [adafruit-circuitpython-raspberry_pi_pico-en_US-9.1.1.uf2](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/Code/adafruit-circuitpython-raspberry_pi_pico-en_US-9.1.1.uf2). This will initiate the installation CircuitPython onto the Pico, enabling the use of the Adafruit HID library ([more information on the Adafruit HID library](https://docs.circuitpython.org/projects/hid/en/latest/)) that is the backbone of the code.
+ After everything is soldered to the Raspberry Pi Pico, connect the Pico to your computer. Navigate to the Pico in File Explorer, and drag and drop this file to the Pico's interal storage: [adafruit-circuitpython-raspberry_pi_pico-en_US-9.1.1.uf2](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/Code/adafruit-circuitpython-raspberry_pi_pico-en_US-9.1.1.uf2). This will initiate the installation CircuitPython onto the Pico, enabling the use of the Adafruit HID library ([more information on the Adafruit HID library](https://docs.circuitpython.org/projects/hid/en/latest/)) that allows the Pico to function as a mouse or other Human Interface Device.
 
  \
  <img alt="Code zip file" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Code%20zip%20file.png" width="500">
@@ -86,21 +87,22 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
  <img alt="Installing CircuitPython on Pico" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Moving%20the%20CircuitPython%20download%20file%20to%20the%20Pico.png" width="500">
  <img alt="New CircuitPython device" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/New%20CircuitPython%20device.png" width="500">
 
- Once CircuitPython is installed, drag and drop the contents of the code folder onto the pico, making sure that main.py is not buried in a folder on the Pico: [code](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/tree/main/Code/code).
-
+ Once CircuitPython is installed, drag and drop the contents of the [code](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/tree/main/Code/code) folder onto the pico, making sure that main.py is not buried in a folder on the Pico.
  \
  <img alt="code folder" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/code%20folder.png" width="500">
  <img alt="Code files to copy" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/code%20files%20to%20copy%20to%20the%20Pico.png" width="500">
  <img alt="Copying code files to Pico" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/copying%20code%20files%20to%20Pico.png" width="500">
 
- Now, simply eject the pico, disconnect and reconnect the device. Make sure that all the electronics function properly and interface with your computer. Most of the code should be plug-and-play, but you may want to adjust the scroll wheel sensitivity and settings, or change/configure commands (RMB+LMB => your function).
+ Now, eject the pico, disconnect and reconnect it to the computer. The program should run on startup, allowing you to check that all electronics and code functions properly. If something on the thumbstick was soldered incorrectly, the cursor on your computer may start to move uncontrollably. If this occurs, disconnect the Pico from your computer without ejecting (as long as nothing is actively being written to the Pico's memory, this should not damage the device), and check that your connections match the diagram. Most of the code should be plug-and-play, but you may want to adjust the scroll wheel sensitivity and settings or change/configure commands (RMB+LMB => your function).
  To do this, open the "main" file on your Pico. Most of the variables and code related to the Scroll Wheel is to implement a sort of psuedo-fast-scrolling, which is supposed to detect when the user scrolls in rapid succession and boost the effect of each scroll similarly to touchscreen scrolling. You can simply delete or comment out all of this code if you do not want this functionality, and tune the sensitivity manually. If you would like to investigate the psuedo-fast-scrolling, however, start by uncommenting the print file.
 
  <img alt="Uncommenting print" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/print%20function%20for%20scroll%20wheel%20output.png" width="600">
 
-  In the output, numOfIncrementsRecently corresponds to the amount of physical clicks when the rotary encoder detects rotation. It is reset every time sensitivity is increased, and it is used to determine the amount of clicks that pass between each increase in speed. `if([numOfIncrementsRecently > 1] && [timeSinceLastFast <= maxTimeBetweenFastScroll]) {//increase sensitivity}`. lastTime refers to the last time the rotary encoder detected rotation (physical click). lastTimeFast is the last time that criteria was met to scroll fast. lastTimeSet tracks the last time fast scrolling was initiated. This is used as a secondary check to determine inelegibilty for scrolling fast. `if([(lastTimeFast > maxTimeSinceLastFast) && (lastTimeSet > 1)] || [scroll direction changed]) {//ineligble to go fast}`. Finally, encoderFactor is the sensitivity of the scroll wheel. Using these outputs, you can adjust maxTimeBetweenFastScroll, maxTimeSinceLastFast, encoderFactorBaseValue, the horsepower boost value (originally set to +=1), and how the encoderFactor gets increased. My settings work for my hand and my scroll speed, but they might not work for everyone. Additionally, the way I chose to implement pseudo-fast-scrolling may not be the best or most efficient way to accomplish this, and you can rewrite the whole system if you so desire.
+  In the output, `numOfIncrementsRecently` corresponds to the amount of physical clicks when the rotary encoder detects rotation. It is reset every time sensitivity is increased, and it is used to determine the amount of clicks that pass between each increase in speed. `if([numOfIncrementsRecently > 1] && [timeSinceLastFast <= maxTimeBetweenFastScroll]) {//increase sensitivity}`. `lastTime` refers to the last time the rotary encoder detected rotation (physical click). `lastTimeFast` is the last time that criteria was met to scroll fast. `lastTimeSet` tracks the last time fast scrolling was initiated. This is used as a secondary check to determine inelegibilty for scrolling fast. `if([(lastTimeFast > maxTimeSinceLastFast) && (lastTimeSet > 1)] || [scroll direction changed]) {//ineligble to go fast}`. Finally, `encoderFactor` is the sensitivity of the scroll wheel. Using these outputs, you can adjust `maxTimeBetweenFastScroll`, `maxTimeSinceLastFast`, `encoderFactorBaseValue`, the horsepower boost value (originally set to +=1), and how the `encoderFactor` gets increased. My settings work for my hand and my scroll speed, but they might not work for everyone. Additionally, the way I chose to implement pseudo-fast-scrolling may not be the best or most efficient way to accomplish this, and you can rewrite the whole system if you so desire.
+
+  It is also fairly commmon for the scroll direction to be accidentally inverted due to the two outer pins of the rotary encoder being connected to the Pico opposite of the diagram. In this case, find the `encoder` variable declaration, and switch the order from `rotaryio.IncrementalEncoder(board.GP0, board.GP1, 1)` to `rotaryio.IncrementalEncoder(board.GP1, board.GP0, 1)`. 
   
-  Lastly, the commands can be customized. Originally I have it set so that when all three buttons are pressed simutaneuosly (LMB+RMB+CMB), thumbstick sensitivity (similar to DPI) is cycled, and when only left and right click are pressed together, sensitivity is set to low to make fine motion easier. However, these commands can be altered or removed, and are located towards the bottom of the main function.
+ Lastly, the commands can be customized. Originally I have it set so that when all three buttons are pressed simutaneuosly (LMB+RMB+CMB), thumbstick sensitivity (similar to DPI) is cycled, and when only left and right click are pressed together, sensitivity is set to low to make fine motion easier. However, these commands can be altered or removed, and are located towards the bottom of the main function.
 
   <img alt="Code for special commands" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Special%20commands.png" width="600">
 
@@ -127,29 +129,30 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
 
  <img alt="Fuzzy Skin settings" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Fuzzy%20Skin%20settings.png" width="400">
 
- I enabled the Fuzzy Skin on every part except for the two triggers. My second suggestion is to print the Clamp Screw with 100% infill. I could not figure out how to add threads to the screw in my modelling software, necessetating thread tapping in post processing. When I tried to tap the Clamp Screw without 100% infill, the outer walls stripped from the infill and rendered the part useless. The Clamp Body, however, because it needs inside diameter tapping, does not need to be printed in 100% infill. Additionally, if the Clamp Body is printed in 100% infill, it will likely not have the same strength as less infill. If you find a way to add threads to the screw and Clamp Body, you can print with your normal infill settings.
+ I enabled the Fuzzy Skin on every part minus the two triggers. My second suggestion is to print the Clamp Screw with 100% infill. I could not figure out how to add threads to the screw in my modelling software, necessetating thread tapping in post processing. When I tried to tap the Clamp Screw without 100% infill, the outer walls stripped from the infill and totalled the part. The Clamp Body, however, because it needs inside diameter tapping, does not need to be printed in 100% infill. Furthermore, if the Clamp Body is printed in 100% infill, it will likely not have the same strength as less infill. If you find a way to add threads to the Clamp Screw and Clamp Body models, you can disregard this suggestion and print with your normal infill settings.
 
- I would also reccomend printing with less walls on the Thumbstick Cap to allow the slot to flex for a tight interface with the thumbstick shaft. Additionally, as long as you can make it fit with the Top Cover, any thumbstick cap should work if there is a specific design you prefer.
+ I would also reccomend printing with less walls on the Thumbstick Cap to allow the slot to flex for a tight interface with the thumbstick shaft. If you would prefer, you can use any aftermarket thumbstick cap as long as you can make it fit with the Top Cover.
 
- Finally, my last suggestion is to outsource the printing of the Scroll Wheel unless you have a resin printer. My experience with FDM printing the Scroll Wheel in PLA was that it always broke along the layer lines of the hex axle due to rotational force when attached to the rotary encoder. After many failed attempts, I ordered the Scroll Wheel off of PCBWay to be printed in Stainless Steel. While this was not very budget-friendly and the cheaper resin printing option would probably be strong enough, I did not want any doubt of success and prefered the premium quality that metal adds to a design.
+ Finally, my last suggestion is to outsource the printing of the Scroll Wheel unless you have a resin printer. My experience with FDM printing the Scroll Wheel in PLA was that it always broke along the layer lines of the hex axle due to rotational force when attached to the rotary encoder. After many failed attempts, I ordered the Scroll Wheel off of PCBWay to be printed in Stainless Steel. While this was not very budget-friendly and the cheaper resin printing option would probably be strong enough, I did not want any doubt of success and prefered the premium quality of metal.
 
- I also want to remind you that fitment is not universal, and the tolerances that worked with my printer and filament may not work with your setup. Additionally, some post processing and tolerance adjustments are warranted. I printed everything on an Elegoo Neptune 3 Pro with black eSUN PLA+. Lastly, if you would like to build the project without the clamp, simply print the "Clamp delete plug for Body - M" instead of the clamp parts, and disregard the clamp assembly section below.
+ I also want to remind you that fitment is not universal, and the tolerances that worked with my printer and filament may not work with your setup. Likewise, some post processing and tolerance adjustments are warranted. I printed everything on an Elegoo Neptune 3 Pro with black eSUN PLA+, but even if you have the same setup, some differences are inevitable.
+ 
+ Lastly, if you would like to build the project without the clamp, simply print the "Clamp delete plug for Body - M" instead of the clamp parts, and disregard the clamp assembly section below.
 
  #### Post-Processing and Tolerancing:
  **Left Body**
 
 Begin by removing support material as usual. Then, use a spare 4-pin pushbutton to test fit both the left and right click button slots, and remove material as needed. Pay attention to the thumbstick base slot, as this often gets clogged with support material. Finally, test fit with thumbstick if possible.
 
+\
 <img alt="Test fitting left and right click 4-pin push buttons with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%204-Pin%20Buttons%20with%20Left%20Body.jpg" width="400">
-
-<img alt="Cleaning out thumbstick base slot on Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Removing%20Supports%20from%20Thumbstick%20Slot%20on%20Left%20Body.jpg" width="600">
-
+<img alt="Cleaning out thumbstick base slot on Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Removing%20Supports%20from%20Thumbstick%20Slot%20on%20Left%20Body.jpg" width="400">
 <img alt="Test fitting thumbstick with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Test%20Fitting%20Thumbstick%20with%20Left%20Body.jpg" width="400">
 
 Completed Left Body:\
 <img alt="Completed Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20Left%20Body.jpg" width="600">
 
-NOTE: Avoid filing and removing material from anywhere that will be visible on the completed assembly, as this will likely result in discoloration that is difficult to fix.
+NOTE: Avoid filing and removing material from anywhere that will be visible on the completed assembly, as this will likely result in discoloration that may be difficult to fix.
 
 **Right Body**
 
@@ -249,10 +252,10 @@ After this, use a 3/8" - 16 or 3/8" - 24 inside tapping tool to thread the hole 
 
 <img alt="Tapping with pliers close to tap" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pliers%20Close%20to%20Tapping%20Device%20on%20Clamp%20Screw.jpg" width="400">
 
-I cannot tap with the pliers on top anymore\
+At this point, I can no longer tap with the pliers on top\
 <img alt="Reason for switched grip" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Reason%20for%20Switched%20Grip.jpg" width="400">
 
-Switched to pliers under (switch-grip):\
+If this occurs, switch to pliers under (switch-grip)\
 <img alt="Switched grip tapping" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Final%20Position%20of%20Tapping%20Device%20Clamp%20Screw.jpg" width="400">
 
 Tapping device at final position:\
@@ -292,14 +295,11 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
 <img alt="Assembling the bottoms with Clamp Screw and Clamp Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Assembling%20Clamp%20Screw%20Bottoms%20with%20Clamp%20Screw.jpg" width="400">
 <img alt="Completed Clamp Body assembly" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Completed%20Clamp%20Body%20Assembly.jpg" width="400">
 
- ### Assembly + Notes:
+ ### Assembly:
    
-   Once all the parts are clean and free of supports, begin test-fitting each piece together. The two halves of the main body should fit easily, but some areas may require more work.
-      
-   The slot for the thumbstick board on the left side of the body is prone to getting clogged by supports, so be sure to adjust for that in slicer settings or attend to that in post-processing. Aside from that, once support material is removed from the slots, all the electronics should slide in fairly easily. (There are often differences in tolerance between printers, so the previous statement may only apply to my machine)
-   
-   After all tolerance issues are resolved, assembly can begin. To start, I normally begin with the electronics and place the right-click button first, but feel free to install in whichever order makes the most sense.\
+   Once all the parts are clean and free of supports, assembly can begin. I normally begin with the electronics and place the right-click button first, but feel free to install in whichever order makes the most sense.\
    NOTE: When bending wires and installing the electronics, it is typical to break a solder joint or two. Use care when bending the wires and have a soldering iron on standby just in case.
+   
    #### Right Mouse Button
    I normally use my automotive picks to slot the button in place, and use another pick or an unwound paper clip to check if the button clicks as intended.
 

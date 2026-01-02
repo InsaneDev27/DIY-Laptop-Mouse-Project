@@ -27,7 +27,7 @@ I began this project because I have always been extremely disatisfied with lapto
  - 2x  4-Pin Push Buttons 6x6x5mm  (example: [amazon_button_pack](https://www.amazon.com/Momentary-Pushbutton-Switches-Breadboard-Electronic/dp/B09R42NFGN/ref=sr_1_1?crid=1DX43WGBWLIU5&dib=eyJ2IjoiMSJ9.DXk5BbxDHSiJJjCdTGdYFrGrHSPxeZjexUARIOWPXaGuUKrpvKHrZPfwT8M7QW-z1TUlZVRWF4wJ_uTXdLjK63bFAPTz3kdr7TUs7w-htF2f5IxVfRd6xHCcEwTcIxOgQ0LaYFem3NL6vboEB6tezYn8HnUeDWYJA6VTvSZ-diyOWkA4R6y9CyrQ1ruPFiN6XdGafszn4lFCSxWVGETcAyZZC9yobfY6JQMW6vzuPOs.Mj1qsziIMg95O4oHzvB9dXVHvoZIJiEi77VNEeLWRuQ&dib_tag=se&keywords=4%2Bpin%2Bbreadboard%2Bbutton%2B6x6x5&qid=1722558613&sprefix=4%2Bpin%2Bbreadboard%2Bbutton%2B6x6x5%2Caps%2C256&sr=8-1&th=1))
  - 3x  #4 ¾” Flathead Phillips Machine Screws
  - 4x  #4 ½” Flathead Phillips Machine Screws
- - 1x  USB to Micro USB Cable (3 ft, but can be ordered different length to fit preferences)
+ - 1x  USB-A to Micro USB Cable (3 ft, but can be ordered different length to fit preferences)
  - Solid Single-Core 22 AWG Wire
 
 Estimated Total Cost (with shipping to the US and outsourcing the Scroll Wheel production): $35 to $60

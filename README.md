@@ -2,6 +2,12 @@
 
 The Laptop Mouse Project (LMP) is a DIY solution for discomfort caused by prolonged use of laptop trackpads. The LMP offers an ergonomic alternative to a typical mouse or trackpad and clamps to the side of laptops for stability and comfort. It is mostly 3-D printable, and all electronics can be found online.
 
+<img alt="Finished LMP 1" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20LMP%201.jpg" width="400">
+
+<img alt="Finished LMP 2" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20LMP%202.jpg" width="400">
+
+<img alt="Finished LMP 3" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Finished%20LMP%203.jpg" width="400">
+
 ## Intro
 
 I began this project because I have always been extremely disatisfied with laptop trackpads. Trackpads cause my wrist discomfort after prolonged use, especially when I am using my laptop on my lap. I realized that I am not the only one that feels this way, and set out to design a suitable alternative that would fix this discomfort. I hope that my solution will work for you as well.
@@ -16,7 +22,7 @@ I began this project because I have always been extremely disatisfied with lapto
 
 ## Parts List
 
- - 1x  Raspberry Pi Pico  (example: [pico](https://www.pishop.us/product/raspberry-pi-pico/?src=raspberrypi))
+ - 1x  Raspberry Pi Pico  (example: [Pico](https://www.pishop.us/product/raspberry-pi-pico/?src=raspberrypi))
  - 1x  Joystick  (designed only for: [adafruit_joystick](https://www.adafruit.com/product/512))
  - 1x  5mm Mouse Rotary Encoder  (example: [kalih_red_5mm_mouse_encoder](https://www.aliexpress.us/item/3256806292223943.html?spm=a2g0o.order_list.order_list_main.5.2ec01802nDnpCD&gatewayAdapt=glo2usa))
  - 2x  4-Pin Push Buttons 6x6x5mm  (example: [amazon_button_pack](https://www.amazon.com/Momentary-Pushbutton-Switches-Breadboard-Electronic/dp/B09R42NFGN/ref=sr_1_1?crid=1DX43WGBWLIU5&dib=eyJ2IjoiMSJ9.DXk5BbxDHSiJJjCdTGdYFrGrHSPxeZjexUARIOWPXaGuUKrpvKHrZPfwT8M7QW-z1TUlZVRWF4wJ_uTXdLjK63bFAPTz3kdr7TUs7w-htF2f5IxVfRd6xHCcEwTcIxOgQ0LaYFem3NL6vboEB6tezYn8HnUeDWYJA6VTvSZ-diyOWkA4R6y9CyrQ1ruPFiN6XdGafszn4lFCSxWVGETcAyZZC9yobfY6JQMW6vzuPOs.Mj1qsziIMg95O4oHzvB9dXVHvoZIJiEi77VNEeLWRuQ&dib_tag=se&keywords=4%2Bpin%2Bbreadboard%2Bbutton%2B6x6x5&qid=1722558613&sprefix=4%2Bpin%2Bbreadboard%2Bbutton%2B6x6x5%2Caps%2C256&sr=8-1&th=1))
@@ -61,7 +67,7 @@ Cost Breakdown (including shipping to the US):
 
 <img alt="Project Pinout" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pi%20Pico%20Pinout%20for%20LMP.jpg" width="700">
 
-NOTE: On the rotary encoder, there should be 2 legs on the sides that normally help align the encoder on a mouse board, but are not necessary. Simply cut these off, as they will interfere with assembly later and often cause confusion in the soldering stage.
+NOTE: On the rotary encoder, there should be 2 legs on the sides that normally help align the encoder on a mouse board, but are not necessary. Cut these off, as they will interfere with assembly later and often cause confusion in the soldering stage.
 
 <img alt="Rotary encoder pins to cut off" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Rotary%20Encoder%20diagram%20to%20cut%20off%20extra%20legs.jpg" width="200">
 
@@ -87,13 +93,13 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
  <img alt="Installing CircuitPython on Pico" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Moving%20the%20CircuitPython%20download%20file%20to%20the%20Pico.png" width="500">
  <img alt="New CircuitPython device" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/New%20CircuitPython%20device.png" width="500">
 
- Once CircuitPython is installed, drag and drop the contents of the [code](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/tree/main/Code/code) folder onto the pico, making sure that main.py is not buried in a folder on the Pico.
+ Once CircuitPython is installed, drag and drop the contents of the [code](https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/tree/main/Code/code) folder onto the Pico, making sure that main.py is not buried in a folder on the Pico.
  \
  <img alt="code folder" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/code%20folder.png" width="500">
  <img alt="Code files to copy" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/code%20files%20to%20copy%20to%20the%20Pico.png" width="500">
  <img alt="Copying code files to Pico" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/copying%20code%20files%20to%20Pico.png" width="500">
 
- Now, eject the pico, disconnect and reconnect it to the computer. The program should run on startup, allowing you to check that all electronics and code functions properly. If something on the thumbstick was soldered incorrectly, the cursor on your computer may start to move uncontrollably. If this occurs, disconnect the Pico from your computer without ejecting (as long as nothing is actively being written to the Pico's memory, this should not damage the device), and check that your connections match the diagram. Most of the code should be plug-and-play, but you may want to adjust the scroll wheel sensitivity and settings or change/configure commands (RMB+LMB => your function).
+ Now, eject the Pico, disconnect and reconnect it to the computer. The program should run on startup, allowing you to check that all electronics and code functions properly. If something on the thumbstick was soldered incorrectly, the cursor on your computer may start to move uncontrollably. If this occurs, disconnect the Pico from your computer without ejecting (as long as nothing is actively being written to the Pico's memory, this should not damage the device), and check that your connections match the diagram. Most of the code should be plug-and-play, but you may want to adjust the scroll wheel sensitivity and settings or change/configure commands (RMB+LMB => your function).
  To do this, open the "main" file on your Pico. Most of the variables and code related to the Scroll Wheel is to implement a sort of psuedo-fast-scrolling, which is supposed to detect when the user scrolls in rapid succession and boost the effect of each scroll similarly to touchscreen scrolling. You can simply delete or comment out all of this code if you do not want this functionality, and tune the sensitivity manually. If you would like to investigate the psuedo-fast-scrolling, however, start by uncommenting the print file.
 
  <img alt="Uncommenting print" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/print%20function%20for%20scroll%20wheel%20output.png" width="600">
@@ -137,7 +143,7 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
 
  I also want to remind you that fitment is not universal, and the tolerances that worked with my printer and filament may not work with your setup. Likewise, some post processing and tolerance adjustments are warranted. I printed everything on an Elegoo Neptune 3 Pro with black eSUN PLA+, but even if you have the same setup, some differences are inevitable.
  
- Lastly, if you would like to build the project without the clamp, simply print the "Clamp delete plug for Body - M" instead of the clamp parts, and disregard the clamp assembly section below.
+ Lastly, if you would like to build the project without the clamp, print the "Clamp delete plug for Body - M" instead of the clamp parts, and disregard the clamp assembly section below.
 
  #### Post-Processing and Tolerancing:
  **Left Body**
@@ -316,7 +322,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    
    #### Raspberry Pi Pico
    
-   After installing the left click, I normally slot in the Pico. Make sure that no wires are being pinched between the wall of the body and the pico, and simply slot it in. (Be sure the glue is dry if you are worried about the wires pulling the right mouse button out of place)
+   After installing the left click, I normally slot in the Pico. Make sure that no wires are being pinched between the wall of the body and the Pico, and slot it in. Be sure the glue is dry if you are worried about the wires pulling the right mouse button out of place.
    
    <img alt="Pico slotted in place" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Pico%20Slotted.jpg" width="400">
    
@@ -339,7 +345,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    
    #### Thumb Stick
    
-   Simply slide into the slots on the left side of the body. Support material often gets clogged in there, so some clearancing may be necessary.
+   Slide into the slots on the left side of the body. Support material often gets clogged in there, so some clearancing may be necessary.
    
    <img alt="Attaching the Thumbstick to the Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Thumbstick%20Base%20Installed%20in%20Left%20Body.jpg" width="400">
 
@@ -351,7 +357,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    
    #### Attaching the Cable
    
-   After all of the electronics are installed, I typically run the cable through the clamp body, then plug it into the pico. If the head of the USB Micro end of the cable doesn't fit in the provided hole in the clamp body, then shave off some of the rubber at the head. To avoid exposing wires, give around a millimeter on all sides of the plug.
+   After all of the electronics are installed, I typically run the cable through the clamp body, then plug it into the Pico. If the head of the USB Micro end of the cable doesn't fit in the provided hole in the clamp body, then shave off some of the rubber at the head. To avoid exposing wires, give around a millimeter on all sides of the plug.
 
    The cable head doesn't fit through the Clamp Body:\
    <img alt="Cable head does not fit" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Cable%20Head%20Does%20Not%20Fit.jpg" width="400">
@@ -377,7 +383,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    
    #### Installing the Triggers and Thumbstick Cover
    
-   To begin the process, I normally start with the Left Click Trigger, as it is the last piece needed to attach the two halves. To install the trigger, first, double check that the space between the end of the slide limiters and the electronic button is slightly too long. In this case, just cut off material from the tip.
+   To begin the process, I normally start with the Left Click Trigger, as it is the last piece needed to attach the two halves. The space between the end of the slide limiters and the electronic button is often slightly too long. In this case, cut off material from the tip until the trigger functions as intended.
 
    The tip of the Left Click Trigger is slightly too long\
    <img alt="Why I needed to cut off the tip of the Left Click Trigger" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Why%20Left%20Click%20Trigger%20Tip%20Needs%20Cutting.jpg" width="400">
@@ -387,7 +393,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    <img alt="Severed tip of Left Click Trigger" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Severed%20Left%20Click%20Trigger%20Tip.jpg" width="400">
    <img alt="Corrected fit of Left Click Trigger with Left Body" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Left%20Click%20Trigger%20Properly%20Fitted.jpg" width="400">
    
-   From there, simply place the trigger in the half with all the electronics, and attach the other side.
+   From there, place the trigger in the half with all the electronics, and attach the other side.
 
    \
    <img alt="Preparing to connect the two sides" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Left%20Click%20Trigger.jpg" width="400">
@@ -418,7 +424,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    <img alt="Installing the Plunger Extender in the hole with the torus diagram" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Plunger%20Extender%20with%20Torus%20Diagram.jpg" width="400">
    <img alt="Plunger Extender fully installed" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Plunger%20Extender%20Installed.jpg" width="400">
    
-   Once this is complete, simply attach the Right Click Trigger as shown previously.
+   Once this is complete, attach the Right Click Trigger as shown previously.
 
    \
    <img alt="Installing Right Click Trigger" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Installing%20Right%20Click%20Trigger.jpg" width="400">
@@ -435,7 +441,7 @@ Then line up the female side of the Clamp Screw Bottom with the male side and us
    <img alt="Thumbstick Cover fully installed" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Thumbstick%20Cap%20Installed.jpg" width="400">
 
    #### Top Cover
-   The final step is to attach the Top Cover. Simply align the screw holes with those on the body, and insert the screws. Before packing up your tools, make sure that the thumbstick moves with the desired freedom, the scroll wheel scrolls easily, and everything works correctly when plugged in to your computer.
+   The final step is to attach the Top Cover. Align the screw holes with those on the body, and insert the screws. Before packing up your tools, make sure that the thumbstick moves with the desired freedom, the scroll wheel scrolls easily, and everything works correctly when plugged in to your computer.
 
 ## Final Results
 

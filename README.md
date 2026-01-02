@@ -123,7 +123,7 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
  - Right Click Trigger
  
  #### 3-D Printing Notes:
- For the most part, the 3-D printing process is fairly standard and straightforward. However, there are a couple of settings and suggestions that I found helpful. The first is Fuzzy Skin. On most of the parts in the project, I used fuzzy skin to hide layer lines and provide a more premium appearance to the end-result. This does take a little more time and slightly more filament, but it was worth it for me. Below are the Fuzzy Skin settings that I used with my Elegoo Neptune 3 Pro.
+ For the most part, the 3-D printing process is fairly standard and straightforward. All of the STL files can be found in the [STLs folder](STLs). However, there are a couple of settings and suggestions that I found helpful. The first is Fuzzy Skin. On most of the parts in the project, I used fuzzy skin to hide layer lines and provide a more premium appearance to the end-result. This does take a little more time and slightly more filament, but it was worth it for me. Below are the Fuzzy Skin settings that I used with my Elegoo Neptune 3 Pro.
 
  <img alt="Fuzzy Skin settings" src="https://github.com/InsaneDev27/DIY-Laptop-Mouse-Project/blob/main/images/Fuzzy%20Skin%20settings.png" width="400">
 

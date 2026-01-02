@@ -30,7 +30,7 @@ I began this project because I have always been extremely disatisfied with lapto
  - 1x  USB to Micro USB Cable (3 ft, but can be ordered different length to fit preferences)
  - Solid Single-Core 22 AWG Wire
 
-Estimated Total Cost (with shipping to the US and outsourcing the Scroll Wheel production): $40 to $60
+Estimated Total Cost (with shipping to the US and outsourcing the Scroll Wheel production): $35 to $60
 
 Cost Breakdown (including shipping to the US):
  - $10 - Resin Printed Scroll Wheel (this is for resin printing on PCBWay, and includes shipping to the US) (I ordered Stainless Steel SLA on PCBWay for added strength and visual appeal, which cost $32)

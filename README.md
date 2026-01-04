@@ -140,7 +140,7 @@ NOTE: The ground wires from the left mouse button (LMB) and right mouse button (
 
  Finally, my last suggestion is to outsource the printing of the Scroll Wheel unless you have a resin printer. My experience with FDM printing the Scroll Wheel in PLA was that it always broke along the layer lines of the hex axle due to rotational force when attached to the rotary encoder. After many failed attempts, I ordered the Scroll Wheel off of PCBWay to be printed in Stainless Steel. While this was not very budget-friendly and the cheaper resin printing option would probably be strong enough, I did not want any doubt of success and prefered the premium quality of metal.
 
- I also want to remind you that fitment is not universal, and the tolerances that worked with my printer and filament may not work with your setup. Likewise, some post processing and tolerance adjustments are warranted. I printed everything on an Elegoo Neptune 3 Pro with black eSUN PLA+, but even if you have the same setup, some differences are inevitable.
+ I also want to remind you that 3-D printed tolerances are not universal, and the dimensions that worked with my printer and filament may not work with your setup. Likewise, some post processing and tolerance adjustments are warranted. I printed everything on an Elegoo Neptune 3 Pro with black eSUN PLA+, but even if you have the same setup, some differences are inevitable.
  
  Lastly, if you would like to build the project without the clamp, print the "Clamp delete plug for Body - M" instead of the clamp parts, and disregard the clamp assembly section below.
 
